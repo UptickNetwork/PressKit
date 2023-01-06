@@ -7,5 +7,3 @@
 ![image](https://github.com/UptickNetwork/press-kit/blob/main/Uptick_Network_logo3.png)
 
 ![image](https://github.com/UptickNetwork/press-kit/blob/main/Uptick_Network_logo5.png)
-
-![image](https://github.com/UptickNetwork/press-kit/blob/main/Uptick_Network_logo.ai)
