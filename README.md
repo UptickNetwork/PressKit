@@ -1,11 +1,11 @@
 # UptickNetworkLogo
-logo 
-![](https://github.com/UptickNetwork/press-kit/blob/main/Uptick_Network_logo4.jpg)
+ 
+![image](https://github.com/UptickNetwork/press-kit/blob/main/Uptick_Network_logo4.png)
 
-![](https://github.com/UptickNetwork/press-kit/blob/main/Uptick_Network_logo2.jpg)
+![image](https://github.com/UptickNetwork/press-kit/blob/main/Uptick_Network_logo2.png)
 
-![](https://github.com/UptickNetwork/press-kit/blob/main/Uptick_Network_logo3.jpg)
+![image](https://github.com/UptickNetwork/press-kit/blob/main/Uptick_Network_logo3.png)
 
-![](https://github.com/UptickNetwork/press-kit/blob/main/Uptick_Network_logo5.jpg)
+![image](https://github.com/UptickNetwork/press-kit/blob/main/Uptick_Network_logo5.png)
 
-![](https://github.com/UptickNetwork/press-kit/blob/main/Uptick_Network_logo.ai)
+![image](https://github.com/UptickNetwork/press-kit/blob/main/Uptick_Network_logo.ai)
