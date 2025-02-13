@@ -22,3 +22,6 @@
 .gitbook
 
 .DS_Store
+
+#vscode
+.vscode
