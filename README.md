@@ -27,7 +27,8 @@ background, `标准交付/` = standard delivery, `变体/` = variants.
 | 版式 / Layout | 背景版本 / Background | 格式 / Formats | 所在目录 / Folder |
 | --- | --- | :---: | --- |
 | 横版组合 / Horizontal lockup | 浅色 · 深色 / Light · Dark | SVG · PNG · PDF | `标准交付/` |
-| 变体 01 / Variant 01 | 浅色 · 深色 / Light · Dark | SVG · PNG · PDF | `变体/` |
+| 图案标 / Logomark | 浅色 · 深色 / Light · Dark | SVG · PNG · PDF | `变体/` |
+| 竖版 / Vertical | 浅色 · 深色 / Light · Dark | SVG · PNG · PDF | `变体/` |
 
 ### Uptick香港
 
@@ -38,8 +39,8 @@ background, `标准交付/` = standard delivery, `变体/` = variants.
 | 版式 / Layout | 背景版本 / Background | 格式 / Formats | 所在目录 / Folder |
 | --- | --- | :---: | --- |
 | 横版组合 / Horizontal lockup | 浅色 · 深色 / Light · Dark | SVG · PNG · PDF | `标准交付/` |
-| 变体 01 / Variant 01 | 浅色 · 深色 / Light · Dark | SVG · PNG · PDF | `变体/` |
-| 变体 02 / Variant 02 | 浅色 · 深色 / Light · Dark | SVG · PNG · PDF | `变体/` |
+| 图案标 / Logomark | 浅色 · 深色 / Light · Dark | SVG · PNG · PDF | `变体/` |
+| 竖版 / Vertical | 浅色 · 深色 / Light · Dark | SVG · PNG · PDF | `变体/` |
 
 ### RWA
 

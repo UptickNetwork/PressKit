@@ -25,7 +25,7 @@ triggers:
 ## 同事提问时，按以下顺序回答
 
 1. **先判断场景**：问的是「深色/浅色背景用哪个」「App 图标用哪个」「印刷用哪个」「能不能改色/拉伸」。
-2. **给出文件路径**：指向 `/Users/qia/Desktop/Qia/1区块链NFT/Upward wallet/Upward logo/Upward Logo VI（skill）/` 下的对应文件。
+2. **给出文件路径**：指向 `/Users/qia/Desktop/Qia/1区块链NFT/Logo/GitHub logo VI 全套/PressKit/Upward Logo VI/` 下的对应文件。
 3. **强调铁律**：logo 是极光多色渐变，非单色，禁止改色/压单色/拉伸/加效果。
 4. **必要时引用完整规范**：`references/logo-guidelines.md`。
 
