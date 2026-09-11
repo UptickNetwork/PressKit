@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-page-node-id="ls6Iz4oEmkGaH890xO6k57">
+<head data-page-node-id="hGnVc9ilo9zhacD52TZC3m">
+<meta charset="utf-8" data-page-node-id="zrVK6xHX0EBz4Ku6iWzthB">
+<meta name="viewport" content="width=device-width, initial-scale=1" data-page-node-id="rbwGrz9h2w7wcMs1Eq269Y">
+<title>Vouch Logo 使用规范</title>
+<style>
+  :root{
+    --purple:#CD65F3;
+    --purple-d:#a23fce;
+    --ink:#1a1a22;
+    --muted:#6b6b76;
+    --line:#ececf2;
+    --bg:#faf9fc;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;color:var(--ink);background:var(--bg);line-height:1.6;}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 22px 64px;}
+  /* hero */
+  .hero{background:linear-gradient(135deg,var(--purple) 0%,var(--purple-d) 100%);color:#fff;padding:54px 22px 48px;margin-bottom:38px;}
+  .hero-in{max-width:1080px;margin:0 auto;padding:0 22px;}
+  .hero h1{margin:0 0 10px;font-size:30px;letter-spacing:.5px;}
+  .hero p{margin:0;opacity:.92;font-size:15px;max-width:680px;}
+  .hero .tag{display:inline-block;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.4);padding:3px 12px;border-radius:999px;font-size:12px;margin-bottom:16px;letter-spacing:1px;}
+  /* chips */
+  .chips{display:flex;flex-wrap:wrap;gap:14px;margin:30px 0 8px;}
+  .chip{display:flex;align-items:center;gap:10px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px 14px;font-size:13px;box-shadow:0 1px 2px rgba(0,0,0,.03);}
+  .chip .sw{width:26px;height:26px;border-radius:7px;border:1px solid rgba(0,0,0,.08);}
+  .chip b{font-weight:600;}
+  .chip span{color:var(--muted);font-size:12px;}
+  /* section */
+  h2{font-size:20px;margin:44px 0 6px;display:flex;align-items:center;gap:9px;}
+  h2::before{content:"";width:5px;height:20px;background:var(--purple);border-radius:3px;display:inline-block;}
+  .sub{color:var(--muted);font-size:13px;margin:0 0 20px;}
+  /* grid */
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;}
+  @media(max-width:820px){.grid{grid-template-columns:repeat(2,1fr);}}
+  @media(max-width:520px){.grid{grid-template-columns:1fr;}}
+  .card{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;transition:box-shadow .2s,transform .2s;}
+  .card:hover{box-shadow:0 8px 24px rgba(0,0,0,.08);transform:translateY(-2px);}
+  .stage{padding:30px 24px;display:flex;align-items:center;justify-content:center;min-height:160px;}
+  .stage.light{background:#ffffff;border-bottom:1px solid var(--line);}
+  .stage.dark{background:#15151c;}
+  .logo-box{width:100%;max-width:200px;}
+  .logo-box svg{width:100%;height:auto;display:block;}
+  .cap{padding:13px 16px;}
+  .cap-t{font-weight:600;font-size:14px;}
+  .cap-u{color:var(--muted);font-size:12px;margin-top:3px;}
+  /* do/dont */
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
+  @media(max-width:640px){.two{grid-template-columns:1fr;}}
+  .panel{border-radius:14px;padding:20px 22px;border:1px solid var(--line);}
+  .panel.ok{background:#f3fbf4;border-color:#cdeccf;}
+  .panel.no{background:#fdf3f3;border-color:#f3cfcf;}
+  .panel h3{margin:0 0 10px;font-size:15px;display:flex;align-items:center;gap:8px;}
+  .panel ul{margin:0;padding-left:18px;font-size:13.5px;}
+  .panel li{margin:6px 0;}
+  .ok-h{color:#1f7a35;} .no-h{color:#b3261e;}
+  footer{margin-top:48px;color:var(--muted);font-size:12px;text-align:center;}
+</style>
+</head>
+<body data-page-node-id="3OKBt99NsIbIZfgxN8sK0s">
+  <div class="hero" data-page-node-id="8JTToBLbxeD5HbfuUnCk6z">
+    <div class="hero-in" data-page-node-id="HVj3rvOe6Wf85kJt0IoziC">
+      <div class="tag" data-page-node-id="s0PPfUDFIrmX7wtBcKiY5L">VOUCH · BRAND VI</div>
+      <h1 data-page-node-id="JaREFxAYXEjQDRQ2yGXuxr">Vouch Logo 使用规范</h1>
+      <p data-page-node-id="7MtOqJGKKFBTu5x3CfyzMb">Vouch（DID + VC 证书产品）标识的选用与避坑指南。主标记为单色（黑/白随背景），唯一品牌色是紫色点缀 #CD65F3。照着选、照着用即可。</p>
+    </div>
+  </div>
+  <div class="wrap" data-page-node-id="GOVDCsOi5oaO7gO9GH7ft1">
+    <div class="chips" data-page-node-id="02QAAkf57cYdNLYhpYKJrC">
+      <div class="chip" data-page-node-id="0RTvBxQGuwPPJ4Yqpph1DN"><span class="sw" style="background:#CD65F3" data-page-node-id="JCC4WshUPxbh4FiuRZ1bPy"></span><div data-page-node-id="dcOsYTJsYiaFO9M72R0XDm"><b data-page-node-id="XIIq6TgtHroURuZKlyAhcX">#CD65F3</b><br data-page-node-id="FXRIxEBpAbB4UwiLeTHmnq"><span data-page-node-id="IvsBfuRWTCSXOCFAX3s4Ry">唯一品牌色 · 紫色点缀</span></div></div>
+      <div class="chip" data-page-node-id="H8CKhpdXHnPcYFu9LmNv9C"><span class="sw" style="background:#000000" data-page-node-id="O2caDBV7w0K1kBGXtmyNHJ"></span><div data-page-node-id="FafKkODCsiJlmmyTOBu4US"><b data-page-node-id="BemDLbx84LCz0tysiOyNl8">#000000</b><br data-page-node-id="uxZa4qw37tdZ85UxJihSNA"><span data-page-node-id="UR9mgJABoBoUN7kNIMH9mj">浅底版主标记（黑）</span></div></div>
+      <div class="chip" data-page-node-id="o808i0uuTENiEHp0xed5xQ"><span class="sw" style="background:#FFFFFF;border:1px solid #ddd" data-page-node-id="dLSR4GkTuMBRS7yccp4sPB"></span><div data-page-node-id="OIihKvfhP5O9KhJZVTrVci"><b data-page-node-id="h8A1rGaqH7390QM37USs9B">#FFFFFF</b><br data-page-node-id="iTt7Gx9TZw2SKQZ7BuhsgE"><span data-page-node-id="Q5G5RMWe7Qyjb41oPEvbO0">深底版主标记（白）</span></div></div>
+    </div>
+
+    <h2 data-page-node-id="hISxUv3FxAa9edXNM3tXdL">标准素材一览</h2>
+    <p class="sub" data-page-node-id="AVuYS3sRCoJbJFV4hvXkBB">三种版式 × 浅色/深色背景两套。浅底用黑标、深底用白标，紫色 #CD65F3 不变。</p>
+    <div class="grid" data-page-node-id="Lta21RM8TB8PdBjleqA3jf">
+      <div class="card" data-page-node-id="r7txfH0jXWSdaCEvVibRPs">
+        <div class="stage light" data-page-node-id="ruwE30NwcsOgnVmBQZEmCh">
+          <div class="logo-box" data-page-node-id="QR8O09KwgLdMpLEX3JxKvO"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 581.8 242.7" style="enable-background:new 0 0 581.8 242.7;" xml:space="preserve" data-page-node-id="pF5krSbYS8L74pK5H0PHDk">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#CD65F3;}
+</style>
+<g data-page-node-id="cVMpANKFjai7ajsrzWwrWv">
+	<path d="M94.2,226.4l-71.4-39.2c-3.8-2.1-6.1-6-6.1-10.3V99.6c0-4.3,2.3-8.2,6.1-10.3l71.4-39.2c3.5-1.9,7.8-1.9,11.3,0l71.4,39.2
+		c3.8,2.1,6.1,6,6.1,10.3V177c0,4.3-2.3,8.2-6.1,10.3l-71.4,39.2C102,228.4,97.7,228.4,94.2,226.4z" data-page-node-id="IpXEqRK6SvhZ1xmyOlqJ0H"/>
+	<path class="st0" d="M170,100.1l-65.7-35.8c-2.8-1.5-6.1-1.5-8.9,0L34.6,97.4c-3,1.6-4.8,4.8-4.8,8.2V171c0,3.4,1.9,6.5,4.8,8.2
+		l60.9,33.2c2.8,1.5,6.1,1.5,8.9,0l60.8-33.2c3-1.6,4.8-4.8,4.8-8.2L170,100.1L170,100.1z" data-page-node-id="iSWps8U0IJti6aZcnRdy9p"/>
+	<path class="st1" d="M104.3,124.5V76.9c0-2.1,2.3-3.5,4.2-2.5L152.8,98c2,1.1,2,3.9,0,5L108.5,127
+		C106.6,128,104.3,126.6,104.3,124.5z" data-page-node-id="s2rIuP9Evlho2i3HmeRzgN"/>
+	<path d="M96,147.6v48.1c0,2.1-2.3,3.5-4.2,2.5l-44.7-23.9c-2-1.1-2-3.9,0-5l44.7-24.1C93.8,144.1,96,145.5,96,147.6z" data-page-node-id="cDxUtWGAuyg6wriJXYSADb"/>
+	<path class="st1" d="M96,76.8v47.8c0,2.1-2.3,3.5-4.2,2.5l-44.4-24.1c-2-1.1-2-3.9,0-5l44.4-23.7C93.8,73.3,96,74.7,96,76.8z" data-page-node-id="hcecTdA80wbObqHyqTJwn5"/>
+	<path d="M38.1,160.2v-48.3c0-2.1,2.3-3.5,4.2-2.5l44.6,24.2c2,1.1,2,3.9,0,5l-44.6,24.1C40.4,163.7,38.1,162.4,38.1,160.2z" data-page-node-id="GlXTLcJMg9uBBBAPTnkHzt"/>
+	<g data-page-node-id="pEPwjHJN06Uppsd9zNHefD">
+		<path d="M305.3,95.6c-0.4-0.6-1-0.9-1.7-0.9h-23.4c-0.9,0-1.7,0.6-2,1.4l-16.1,45.2c-0.2,0.6-0.5,1.5-0.8,2.8
+			c-0.4-1.4-0.6-2.3-0.8-2.9L244.4,96c-0.3-0.8-1.1-1.4-2-1.4h-23.4c-0.7,0-1.3,0.3-1.7,0.9c-0.4,0.6-0.5,1.3-0.2,2l33.8,80.7
+			c0.3,0.8,1.1,1.3,1.9,1.3h16.8c0.8,0,1.6-0.5,1.9-1.3l33.8-80.7C305.7,96.9,305.7,96.2,305.3,95.6z" data-page-node-id="pDF6k5ZPaBl5fmB1Ehm7jJ"/>
+		<path d="M354.1,127c-3.1-3-6.7-5.3-10.7-6.8c-3.9-1.5-8.2-2.3-12.8-2.3c-4.5,0-8.8,0.8-12.8,2.3c-4,1.5-7.6,3.8-10.6,6.8
+			c-3.2,3-5.6,6.5-7.2,10.4c-1.6,3.8-2.5,8-2.5,12.3c0,4.3,0.8,8.4,2.5,12.3c1.6,3.9,4.1,7.3,7.2,10.3c3.1,3,6.7,5.4,10.7,6.9
+			c4,1.6,8.2,2.3,12.7,2.3c4.4,0,8.7-0.8,12.6-2.3c4-1.6,7.6-3.9,10.8-6.9c3.2-3,5.6-6.5,7.3-10.4c1.7-3.8,2.5-8,2.5-12.2
+			c0-4.3-0.8-8.4-2.5-12.3C359.7,133.6,357.3,130.1,354.1,127z M337.6,158.2c-1.7,1.9-4,2.8-7,2.8c-3,0-5.3-0.9-7-2.8
+			c-1.7-2-2.6-4.8-2.6-8.4c0-3.6,0.9-6.5,2.6-8.5c1.7-1.9,4-2.9,7-2.9c3,0,5.2,0.9,6.9,2.9c1.7,2,2.6,4.8,2.6,8.4
+			C340.2,153.4,339.3,156.2,337.6,158.2z" data-page-node-id="KhlwwrWqeJPFiFEbi0Vr2c"/>
+		<path d="M432.5,119.7h-19.2c-1.1,0-2.1,0.9-2.1,2.1v29.7c0,5.3-1,7.8-1.9,8.9c-1.1,1.5-3,2.2-5.9,2.2c-2.8,0-4.7-0.7-5.8-2.3
+			c-1.3-1.7-1.9-4.7-1.9-8.9v-29.7c0-1.1-0.9-2.1-2.1-2.1h-18.7c-1.1,0-2.1,0.9-2.1,2.1v28.4c0,6.6,0.5,11.4,1.6,14.7
+			c1.1,3.4,3,6.4,5.6,8.9c2.8,2.7,6.2,4.7,10.1,6c3.8,1.3,8.4,1.9,13.5,1.9c5.2,0,9.7-0.6,13.6-1.9c4-1.3,7.3-3.3,10-6
+			c2.6-2.6,4.5-5.6,5.6-8.9c1.1-3.3,1.6-8.1,1.6-14.6v-28.4C434.5,120.6,433.6,119.7,432.5,119.7z" data-page-node-id="OELAV5tIQ19omdbixjK0rW"/>
+		<path d="M489.9,121.7c-2.2-1.3-4.6-2.3-7-2.9c-2.4-0.6-5.2-0.9-8.1-0.9c-9,0-16.5,3-22.3,8.9c-5.8,5.9-8.7,13.6-8.7,22.8
+			c0,9.5,2.9,17.3,8.5,23.1c5.7,5.9,13.2,8.9,22.3,8.9c2.7,0,5.3-0.3,7.8-1c2.5-0.7,5-1.7,7.5-3.1c0.7-0.4,1.1-1.1,1.1-1.8v-17
+			c0-0.8-0.5-1.6-1.3-1.9c-0.8-0.3-1.7-0.1-2.3,0.5c-1.4,1.5-2.8,2.5-4.3,3.2c-1.5,0.7-3.1,1-4.7,1c-3.5,0-6.1-1-8.1-3.2
+			c-2-2.2-3-5-3-8.8c0-3.9,1-6.9,2.9-9.1c1.9-2.1,4.4-3.2,7.7-3.2c1.7,0,3.2,0.3,4.7,1c1.6,0.7,3.2,1.8,5,3.3
+			c0.6,0.5,1.5,0.7,2.2,0.3c0.7-0.3,1.2-1.1,1.2-1.9v-16.6C490.9,122.7,490.5,122.1,489.9,121.7z" data-page-node-id="F6Er8eqGeI4teIlEkzY0Cx"/>
+		<path d="M564.1,133.1c-0.7-3-1.9-5.5-3.6-7.7c-2-2.4-4.6-4.3-7.7-5.6c-3-1.3-6.6-1.9-10.4-1.9c-5,0-9.4,1.1-13,3.2
+			c-1.8,1-3.4,2.3-5,3.9c0-1,0-2,0-3.1V92c0-1.1-0.9-2.1-2.1-2.1h-19.3c-1.1,0-2.1,0.9-2.1,2.1v85.4c0,1.1,0.9,2.1,2.1,2.1h19.3
+			c1.1,0,2.1-0.9,2.1-2.1v-23.4c0-6.3,0.8-10.9,2.5-13.6c1.5-2.4,3.8-3.5,7.2-3.5c2.5,0,4.2,0.7,5.3,2.2c1.2,1.6,1.8,4.6,1.8,8.5
+			v29.8c0,1.1,0.9,2.1,2.1,2.1H563c1.1,0,2.1-0.9,2.1-2.1v-31.9C565,140,564.7,135.9,564.1,133.1z" data-page-node-id="n87PhRbiQ0GQpy0lWr2pGx"/>
+	</g>
+	<path d="M132.1,14.8c2.3,0,4.1,1.9,4.2,4.2c0.1,6.6-0.9,19.7-9,27.9c-8.1,8.2-21.1,9.2-27.6,9.1c-2.3,0-4.1-1.9-4.2-4.2
+		c-0.1-6.6,0.9-19.7,9-27.9C112.6,15.7,125.6,14.8,132.1,14.8z" data-page-node-id="8UIHiGRfDGMQ0rFUFDMqgI"/>
+	<path class="st1" d="M154.4,125.6c-0.6-0.5-1.3-0.5-2-0.2l-10.8,6.1c-0.4,0.2-0.7,0.6-0.8,1l-7.3,25l-6.8-15.3
+		c-0.2-0.5-0.6-0.8-1.1-1c-0.5-0.2-1-0.1-1.4,0.1l-10.8,6.1c-0.8,0.5-1.1,1.5-0.7,2.4l15.6,28.8c0.2,0.4,0.6,0.7,1.1,0.9
+		c0.2,0,0.3,0.1,0.5,0.1c0.3,0,0.6-0.1,0.9-0.2l7.7-4.4c0.4-0.2,0.7-0.6,0.8-1l15.6-46.5C155.1,126.8,154.9,126,154.4,125.6z" data-page-node-id="dgLs2cntZZ7y3cOqLB0ywE"/>
+</g>
+</svg>
+</div>
+        </div>
+        <div class="cap" data-page-node-id="NtAGmgza4iyeAZKKKDctay"><div class="cap-t" data-page-node-id="rgDKQ7r4xuQ3PyWc50WAKP">横版 · 浅色背景（黑标）</div><div class="cap-u" data-page-node-id="AeX3oT6tWq2RXHefRtM1ku">白/浅灰底页面、文档、页眉页脚</div></div>
+      </div>
+      <div class="card" data-page-node-id="hiWMm75VDlgE7QT1VM9WbX">
+        <div class="stage dark" data-page-node-id="VTGiA2gAB4e0HpQvrprpGL">
+          <div class="logo-box" data-page-node-id="uXy5eynBQ4kB3D99flDIiB"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 581.8 242.7" style="enable-background:new 0 0 581.8 242.7;" xml:space="preserve" data-page-node-id="BjLA6b4FPP4kK8QNNCzlJZ">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#CD65F3;}
+</style>
+<g data-page-node-id="p3VPyNlr0vDkKPkbRDuldo">
+	<path class="st0" d="M176.9,89.3l-71.4-39.2c-3.5-1.9-7.8-1.9-11.3,0L22.9,89.3c-3.8,2.1-6.1,6-6.1,10.3V177
+		c0,4.3,2.3,8.2,6.1,10.3l71.4,39.2c3.5,1.9,7.8,1.9,11.3,0l71.4-39.2c3.8-2.1,6.1-6,6.1-10.3V99.6C183,95.3,180.7,91.3,176.9,89.3z
+		 M170,171c0,3.4-1.9,6.5-4.8,8.2l-60.8,33.2c-2.8,1.5-6.1,1.5-8.9,0l-60.9-33.2c-3-1.6-4.8-4.8-4.8-8.2v-65.5
+		c0-3.4,1.9-6.5,4.8-8.2l60.9-33.2c2.8-1.5,6.1-1.5,8.9,0l65.7,35.8l0,0L170,171L170,171z" data-page-node-id="VBiBGr0w9k86di6yUwt0db"/>
+	<path class="st1" d="M104.4,124.4V76.8c0-2.1,2.3-3.5,4.2-2.5L152.9,98c2,1.1,2,3.9,0,5l-44.3,23.9
+		C106.7,127.9,104.4,126.6,104.4,124.4z" data-page-node-id="1yrUnpRNBYUwK43BURphkM"/>
+	<path class="st0" d="M96.1,147.6v48.1c0,2.1-2.3,3.5-4.2,2.5l-44.7-23.9c-2-1.1-2-3.9,0-5l44.7-24.1
+		C93.8,144.1,96.1,145.5,96.1,147.6z" data-page-node-id="fDTiLiT7z26t4W6lJPtIe5"/>
+	<path class="st1" d="M96.1,76.8v47.8c0,2.1-2.3,3.5-4.2,2.5L47.6,103c-2-1.1-2-3.9,0-5L92,74.3C93.8,73.3,96.1,74.7,96.1,76.8z" data-page-node-id="0baLjtX3JvBqbIToZmMOJh"/>
+	<path class="st0" d="M38.2,160.2v-48.3c0-2.1,2.3-3.5,4.2-2.5l44.5,24.2c2,1.1,2,3.9,0,5l-44.6,24.1
+		C40.4,163.7,38.2,162.3,38.2,160.2z" data-page-node-id="WUQX309RS1NR15qQq1NljX"/>
+	<g data-page-node-id="oDlRVhxZSSDzt0DawfpQgd">
+		<path class="st0" d="M305.3,95.5c-0.4-0.6-1-0.9-1.7-0.9h-23.4c-0.9,0-1.7,0.6-2,1.4l-16.1,45.2c-0.2,0.6-0.5,1.5-0.8,2.8
+			c-0.4-1.4-0.6-2.3-0.8-2.9L244.4,96c-0.3-0.8-1.1-1.4-2-1.4H219c-0.7,0-1.3,0.3-1.7,0.9s-0.5,1.3-0.2,2l33.8,80.7
+			c0.3,0.8,1.1,1.3,1.9,1.3h16.8c0.8,0,1.6-0.5,1.9-1.3l33.8-80.7C305.8,96.9,305.7,96.1,305.3,95.5z" data-page-node-id="YYAPCKRmPu2PFqLTBQQRjs"/>
+		<path class="st0" d="M354.1,127c-3.1-3-6.7-5.3-10.7-6.8c-3.9-1.5-8.2-2.3-12.8-2.3c-4.5,0-8.8,0.8-12.8,2.3s-7.6,3.8-10.6,6.8
+			c-3.2,3-5.6,6.5-7.2,10.4c-1.6,3.8-2.5,8-2.5,12.3s0.8,8.4,2.5,12.3c1.6,3.9,4.1,7.3,7.2,10.3s6.7,5.4,10.7,6.9
+			c4,1.6,8.2,2.3,12.7,2.3c4.4,0,8.7-0.8,12.6-2.3c4-1.6,7.6-3.9,10.8-6.9c3.2-3,5.6-6.5,7.3-10.4c1.7-3.8,2.5-8,2.5-12.2
+			c0-4.3-0.8-8.4-2.5-12.3C359.8,133.6,357.4,130.1,354.1,127z M337.7,158.1c-1.7,1.9-4,2.8-7,2.8s-5.3-0.9-7-2.8
+			c-1.7-2-2.6-4.8-2.6-8.4c0-3.6,0.9-6.5,2.6-8.5c1.7-1.9,4-2.9,7-2.9s5.2,0.9,6.9,2.9c1.7,2,2.6,4.8,2.6,8.4
+			C340.3,153.3,339.4,156.2,337.7,158.1z" data-page-node-id="f4qdDqu45uJyUzumSVGydy"/>
+		<path class="st0" d="M432.5,119.6h-19.2c-1.1,0-2.1,0.9-2.1,2.1v29.7c0,5.3-1,7.8-1.9,8.9c-1.1,1.5-3,2.2-5.9,2.2
+			c-2.8,0-4.7-0.7-5.8-2.3c-1.3-1.7-1.9-4.7-1.9-8.9v-29.7c0-1.1-0.9-2.1-2.1-2.1h-18.7c-1.1,0-2.1,0.9-2.1,2.1V150
+			c0,6.6,0.5,11.4,1.6,14.7c1.1,3.4,3,6.4,5.6,8.9c2.8,2.7,6.2,4.7,10.1,6c3.8,1.3,8.4,1.9,13.5,1.9c5.2,0,9.7-0.6,13.6-1.9
+			c4-1.3,7.3-3.3,10-6c2.6-2.6,4.5-5.6,5.6-8.9c1.1-3.3,1.6-8.1,1.6-14.6v-28.4C434.6,120.6,433.7,119.6,432.5,119.6z" data-page-node-id="P4TgCXLbCcOwQDBQi9E7Zo"/>
+		<path class="st0" d="M489.9,121.6c-2.2-1.3-4.6-2.3-7-2.9s-5.2-0.9-8.1-0.9c-9,0-16.5,3-22.3,8.9s-8.7,13.6-8.7,22.8
+			c0,9.5,2.9,17.3,8.5,23.1c5.7,5.9,13.2,8.9,22.3,8.9c2.7,0,5.3-0.3,7.8-1s5-1.7,7.5-3.1c0.7-0.4,1.1-1.1,1.1-1.8v-17
+			c0-0.8-0.5-1.6-1.3-1.9c-0.8-0.3-1.7-0.1-2.3,0.5c-1.4,1.5-2.8,2.5-4.3,3.2s-3.1,1-4.7,1c-3.5,0-6.1-1-8.1-3.2s-3-5-3-8.8
+			c0-3.9,1-6.9,2.9-9.1c1.9-2.1,4.4-3.2,7.7-3.2c1.7,0,3.2,0.3,4.7,1c1.6,0.7,3.2,1.8,5,3.3c0.6,0.5,1.5,0.7,2.2,0.3
+			c0.7-0.3,1.2-1.1,1.2-1.9v-16.6C490.9,122.7,490.5,122,489.9,121.6z" data-page-node-id="ozROkkfGI3AAFLhvRpyzUz"/>
+		<path class="st0" d="M564.1,133c-0.7-3-1.9-5.5-3.6-7.7c-2-2.4-4.6-4.3-7.7-5.6c-3-1.3-6.6-1.9-10.4-1.9c-5,0-9.4,1.1-13,3.2
+			c-1.8,1-3.4,2.3-5,3.9c0-1,0-2,0-3.1v-30c0-1.1-0.9-2.1-2.1-2.1H503c-1.1,0-2.1,0.9-2.1,2.1v85.4c0,1.1,0.9,2.1,2.1,2.1h19.3
+			c1.1,0,2.1-0.9,2.1-2.1v-23.4c0-6.3,0.8-10.9,2.5-13.6c1.5-2.4,3.8-3.5,7.2-3.5c2.5,0,4.2,0.7,5.3,2.2c1.2,1.6,1.8,4.6,1.8,8.5
+			v29.8c0,1.1,0.9,2.1,2.1,2.1H563c1.1,0,2.1-0.9,2.1-2.1v-31.9C565.1,140,564.8,135.9,564.1,133z" data-page-node-id="01ufUdC3fzmtfduKnEd10o"/>
+	</g>
+	<path class="st0" d="M132.2,14.8c2.3,0,4.1,1.9,4.2,4.2c0.1,6.6-0.9,19.7-9,27.9s-21.1,9.2-27.6,9.1c-2.3,0-4.1-1.9-4.2-4.2
+		c-0.1-6.6,0.9-19.7,9-27.9C112.6,15.7,125.7,14.7,132.2,14.8z" data-page-node-id="WFGxY6GlTJPXNp96qtUklU"/>
+	<path class="st1" d="M154.4,125.5c-0.6-0.5-1.3-0.5-2-0.2l-10.8,6.1c-0.4,0.2-0.7,0.6-0.8,1l-7.3,25l-6.8-15.3
+		c-0.2-0.5-0.6-0.8-1.1-1s-1-0.1-1.4,0.1l-10.8,6.1c-0.8,0.5-1.1,1.5-0.7,2.4l15.6,28.8c0.2,0.4,0.6,0.7,1.1,0.9
+		c0.2,0,0.3,0.1,0.5,0.1c0.3,0,0.6-0.1,0.9-0.2l7.7-4.4c0.4-0.2,0.7-0.6,0.8-1l15.6-46.5C155.2,126.8,155,126,154.4,125.5z" data-page-node-id="9zwBQ1YYSwrSIhTsCinmhw"/>
+</g>
+</svg>
+</div>
+        </div>
+        <div class="cap" data-page-node-id="mHg2DocpXT1q6cusb5BAIg"><div class="cap-t" data-page-node-id="cnnusb7aO0r17vCnWsdgD1">横版 · 深色背景（白标）</div><div class="cap-u" data-page-node-id="x1aGhkfTG39eUVqyBIx2ca">黑/深底、深色 PPT 页</div></div>
+      </div>
+      <div class="card" data-page-node-id="4OswfTcesACZyjT6g7jZ7L">
+        <div class="stage light" data-page-node-id="MxiKudrfGWs3mbgQtJPvMa">
+          <div class="logo-box" data-page-node-id="jFTObZODfZPGVbJa8I8I8C"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 226.8 226.8" style="enable-background:new 0 0 226.8 226.8;" xml:space="preserve" data-page-node-id="nICgORpJHMPMGur4Jpb66Q">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#CD65F3;}
+</style>
+<g data-page-node-id="XyXYAdFgTWpHBw9vKpoIzp">
+	<path d="M107.7,218.4l-71.4-39.2c-3.8-2.1-6.1-6-6.1-10.3V91.6c0-4.3,2.3-8.2,6.1-10.3l71.4-39.2c3.5-1.9,7.8-1.9,11.3,0l71.4,39.2
+		c3.8,2.1,6.1,6,6.1,10.3V169c0,4.3-2.3,8.2-6.1,10.3L119,218.5C115.5,220.4,111.2,220.4,107.7,218.4z" data-page-node-id="FYr4Y86HBnAjq88LyOB5xW"/>
+	<path class="st0" d="M183.5,92.1l-65.7-35.8c-2.8-1.5-6.1-1.5-8.9,0L48.1,89.4c-3,1.6-4.8,4.8-4.8,8.2V163c0,3.4,1.9,6.5,4.8,8.2
+		l60.9,33.2c2.8,1.5,6.1,1.5,8.9,0l60.8-33.2c3-1.6,4.8-4.8,4.8-8.2V92.1L183.5,92.1z" data-page-node-id="vIPr8wGDr3Fskw2n83l4Zx"/>
+	<path class="st1" d="M117.8,116.5V68.9c0-2.1,2.3-3.5,4.2-2.5L166.3,90c2,1.1,2,3.9,0,5L122,119C120.1,120,117.8,118.6,117.8,116.5
+		z" data-page-node-id="nKK8NT2gZCWqdjV978yHn6"/>
+	<path d="M109.5,139.6v48.1c0,2.1-2.3,3.5-4.2,2.5l-44.7-23.9c-2-1.1-2-3.9,0-5l44.7-24.1C107.3,136.1,109.5,137.5,109.5,139.6z" data-page-node-id="oDZh9CB0YsAzDThlZCN8F7"/>
+	<path class="st1" d="M109.5,68.8v47.8c0,2.1-2.3,3.5-4.2,2.5L60.9,95c-2-1.1-2-3.9,0-5l44.4-23.7C107.3,65.3,109.5,66.7,109.5,68.8
+		z" data-page-node-id="qDcsIeH3UgAYFvKSgZqI84"/>
+	<path d="M51.6,152.2v-48.3c0-2.1,2.3-3.5,4.2-2.5l44.6,24.2c2,1.1,2,3.9,0,5l-44.6,24.1C53.9,155.7,51.6,154.4,51.6,152.2z" data-page-node-id="v6xAi8Cb4xBnKjJ4WSK5wg"/>
+	<path d="M145.6,6.8c2.3,0,4.1,1.9,4.2,4.2c0.1,6.6-0.9,19.7-9,27.9c-8.1,8.2-21.1,9.2-27.6,9.1c-2.3,0-4.1-1.9-4.2-4.2
+		c-0.1-6.6,0.9-19.7,9-27.9S139.1,6.8,145.6,6.8z" data-page-node-id="KeKeJwT4xXKeCzivFSs3Iq"/>
+	<path class="st1" d="M167.9,117.6c-0.6-0.5-1.3-0.5-2-0.2l-10.8,6.1c-0.4,0.2-0.7,0.6-0.8,1l-7.3,25l-6.8-15.3
+		c-0.2-0.5-0.6-0.8-1.1-1s-1-0.1-1.4,0.1l-10.8,6.1c-0.8,0.5-1.1,1.5-0.7,2.4l15.6,28.8c0.2,0.4,0.6,0.7,1.1,0.9
+		c0.2,0,0.3,0.1,0.5,0.1c0.3,0,0.6-0.1,0.9-0.2l7.7-4.4c0.4-0.2,0.7-0.6,0.8-1l15.6-46.5C168.6,118.8,168.4,118,167.9,117.6z" data-page-node-id="l8PY41QRhFA6i8NBnhxGj0"/>
+</g>
+</svg>
+</div>
+        </div>
+        <div class="cap" data-page-node-id="sVleZ2oAUi1EsnD5txIEIX"><div class="cap-t" data-page-node-id="Ef9f6MBHf1Y13txfwFCC0P">图形标 · 浅色背景（黑标）</div><div class="cap-u" data-page-node-id="AAQfeVAmLqeemIPDQ1lJfl">App 图标、头像、favicon 小方块（浅底）</div></div>
+      </div>
+      <div class="card" data-page-node-id="RrbIq2osEXPVFGJ69uJ28J">
+        <div class="stage dark" data-page-node-id="5t8jNvTjvyg19jLlXdBjSa">
+          <div class="logo-box" data-page-node-id="86clL3nFzS1WZyt3W6eiCM"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 226.8 226.8" style="enable-background:new 0 0 226.8 226.8;" xml:space="preserve" data-page-node-id="OXXEucxT6pbIxOxzIqyOJa">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#CD65F3;}
+</style>
+<g data-page-node-id="cVTokoF1quXeud86AqZ5xB">
+	<path class="st0" d="M190.3,81.3l-71.4-39.2c-3.5-1.9-7.8-1.9-11.3,0L36.3,81.3c-3.8,2.1-6.1,6-6.1,10.3V169
+		c0,4.3,2.3,8.2,6.1,10.3l71.4,39.2c3.5,1.9,7.8,1.9,11.3,0l71.4-39.2c3.8-2.1,6.1-6,6.1-10.3V91.6
+		C196.4,87.3,194.1,83.3,190.3,81.3z M183.4,163c0,3.4-1.9,6.5-4.8,8.2l-60.8,33.2c-2.8,1.5-6.1,1.5-8.9,0L48,171.2
+		c-3-1.6-4.8-4.8-4.8-8.2V97.5c0-3.4,1.9-6.5,4.8-8.2l60.9-33.2c2.8-1.5,6.1-1.5,8.9,0l65.7,35.8l0,0L183.4,163L183.4,163z" data-page-node-id="fHhurvQsXu3kS0OF0HeLfx"/>
+	<path class="st1" d="M117.8,116.4V68.8c0-2.1,2.3-3.5,4.2-2.5L166.3,90c2,1.1,2,3.9,0,5L122,118.9
+		C120.1,119.9,117.8,118.6,117.8,116.4z" data-page-node-id="CsSjtotziz4QRNWu9D25Je"/>
+	<path class="st0" d="M109.5,139.6v48.1c0,2.1-2.3,3.5-4.2,2.5l-44.7-23.9c-2-1.1-2-3.9,0-5l44.7-24.1
+		C107.2,136.1,109.5,137.5,109.5,139.6z" data-page-node-id="oGEWr4YslkslU9trSZp5UC"/>
+	<path class="st1" d="M109.5,68.8v47.8c0,2.1-2.3,3.5-4.2,2.5L61,95c-2-1.1-2-3.9,0-5l44.4-23.7C107.2,65.3,109.5,66.7,109.5,68.8z" data-page-node-id="3kzowht8uC6iE0t5l6n8hf"
+		/>
+	<path class="st0" d="M51.6,152.2v-48.3c0-2.1,2.3-3.5,4.2-2.5l44.5,24.2c2,1.1,2,3.9,0,5l-44.6,24.1
+		C53.8,155.7,51.6,154.3,51.6,152.2z" data-page-node-id="fjTWPyPm2ctOXXZWBKWM21"/>
+	<path class="st0" d="M145.6,6.8c2.3,0,4.1,1.9,4.2,4.2c0.1,6.6-0.9,19.7-9,27.9s-21.1,9.2-27.6,9.1c-2.3,0-4.1-1.9-4.2-4.2
+		c-0.1-6.6,0.9-19.7,9-27.9C126,7.7,139.1,6.7,145.6,6.8z" data-page-node-id="Q7BtU9tECZJOD6GEX605xo"/>
+	<path class="st1" d="M167.8,117.5c-0.6-0.5-1.3-0.5-2-0.2l-10.8,6.1c-0.4,0.2-0.7,0.6-0.8,1l-7.3,25l-6.8-15.3
+		c-0.2-0.5-0.6-0.8-1.1-1s-1-0.1-1.4,0.1l-10.8,6.1c-0.8,0.5-1.1,1.5-0.7,2.4l15.6,28.8c0.2,0.4,0.6,0.7,1.1,0.9
+		c0.2,0,0.3,0.1,0.5,0.1c0.3,0,0.6-0.1,0.9-0.2l7.7-4.4c0.4-0.2,0.7-0.6,0.8-1l15.6-46.5C168.6,118.8,168.4,118,167.8,117.5z" data-page-node-id="tYN2TCbsbPvrAGtQmyjKat"/>
+</g>
+</svg>
+</div>
+        </div>
+        <div class="cap" data-page-node-id="pUlllkXP0UPmU71DZnLu3f"><div class="cap-t" data-page-node-id="car7tSZfJawGM7sMY6JBtL">图形标 · 深色背景（白标）</div><div class="cap-u" data-page-node-id="DXGPBENNW3BwI685RyhxW1">深色底小方块位</div></div>
+      </div>
+      <div class="card" data-page-node-id="s47y3fND78i6sXlhp89yLH">
+        <div class="stage light" data-page-node-id="Oq8WKWnEtfAnsR1hcrQXSf">
+          <div class="logo-box" data-page-node-id="jlcGZaHwBEZbhpXd4gc4Rs"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 226.8 288.8" style="enable-background:new 0 0 226.8 288.8;" xml:space="preserve" data-page-node-id="0FYkunAeTrZiqqYFCQ2KNq">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#CD65F3;}
+</style>
+<g data-page-node-id="4rvOfqlECFqJNRNwOJ301K">
+	<path d="M107.8,218.4l-71.4-39.2c-3.8-2.1-6.1-6-6.1-10.3V91.6c0-4.3,2.3-8.2,6.1-10.3l71.4-39.2c3.5-1.9,7.8-1.9,11.3,0l71.4,39.2
+		c3.8,2.1,6.1,6,6.1,10.3V169c0,4.3-2.3,8.2-6.1,10.3l-71.4,39.2C115.6,220.4,111.2,220.4,107.8,218.4z" data-page-node-id="1efkUcBN42GHtj4x9KWOxk"/>
+	<path class="st0" d="M183.6,92.1l-65.7-35.8c-2.8-1.5-6.1-1.5-8.9,0L48.2,89.4c-3,1.6-4.8,4.8-4.8,8.2V163c0,3.4,1.9,6.5,4.8,8.2
+		l60.9,33.2c2.8,1.5,6.1,1.5,8.9,0l60.8-33.2c3-1.6,4.8-4.8,4.8-8.2V92.1L183.6,92.1z" data-page-node-id="77rUlHukvrkFdQRHMjAcCV"/>
+	<path class="st1" d="M117.9,116.5V68.9c0-2.1,2.3-3.5,4.2-2.5L166.4,90c2,1.1,2,3.9,0,5l-44.3,24
+		C120.2,120,117.9,118.6,117.9,116.5z" data-page-node-id="coNvGNUYFVmUEwEN0YIguo"/>
+	<path d="M109.6,139.6v48.1c0,2.1-2.3,3.5-4.2,2.5l-44.7-23.9c-2-1.1-2-3.9,0-5l44.7-24.1C107.4,136.1,109.6,137.5,109.6,139.6z" data-page-node-id="YQGVOFmu9fBGQphAg4tSqr"/>
+	<path class="st1" d="M109.6,68.8v47.8c0,2.1-2.3,3.5-4.2,2.5L61,95c-2-1.1-2-3.9,0-5l44.4-23.7C107.4,65.3,109.6,66.7,109.6,68.8z" data-page-node-id="r0FfGDHrVneMghdDaGFDwe"
+		/>
+	<path d="M51.7,152.2v-48.3c0-2.1,2.3-3.5,4.2-2.5l44.6,24.2c2,1.1,2,3.9,0,5l-44.6,24.1C54,155.7,51.7,154.4,51.7,152.2z" data-page-node-id="dtwuXLPXiYALUlcEsMj1CM"/>
+	<path d="M145.7,6.8c2.3,0,4.1,1.9,4.2,4.2c0.1,6.6-0.9,19.7-9,27.9s-21.1,9.2-27.6,9.1c-2.3,0-4.1-1.9-4.2-4.2
+		c-0.1-6.6,0.9-19.7,9-27.9S139.2,6.8,145.7,6.8z" data-page-node-id="4gTC34knAr0MBfHutLwGwL"/>
+	<path class="st1" d="M167.9,117.6c-0.6-0.5-1.3-0.5-2-0.2l-10.8,6.1c-0.4,0.2-0.7,0.6-0.8,1l-7.3,25l-6.8-15.3
+		c-0.2-0.5-0.6-0.8-1.1-1s-1-0.1-1.4,0.1l-10.8,6.1c-0.8,0.5-1.1,1.5-0.7,2.4l15.6,28.8c0.2,0.4,0.6,0.7,1.1,0.9
+		c0.2,0,0.3,0.1,0.5,0.1c0.3,0,0.6-0.1,0.9-0.2l7.7-4.4c0.4-0.2,0.7-0.6,0.8-1l15.6-46.5C168.7,118.8,168.4,118,167.9,117.6z" data-page-node-id="Lhnd1kAYtC8a9eblV8WdbE"/>
+</g>
+<g data-page-node-id="lNdTRWtzc20fWFEUWi9VmY">
+	<path d="M72.4,241c-0.2-0.3-0.5-0.4-0.8-0.4H60.4c-0.4,0-0.8,0.3-1,0.7l-7.7,21.6c-0.1,0.3-0.2,0.7-0.4,1.3
+		c-0.2-0.7-0.3-1.1-0.4-1.4l-7.7-21.6c-0.1-0.4-0.5-0.7-1-0.7H31.1c-0.3,0-0.6,0.1-0.8,0.4c-0.2,0.3-0.2,0.6-0.1,1l16.2,38.6
+		c0.1,0.4,0.5,0.6,0.9,0.6h8c0.4,0,0.8-0.2,0.9-0.6l16.2-38.6C72.6,241.6,72.6,241.3,72.4,241z" data-page-node-id="JEGBOjsOFQhRWDPmF5sh9c"/>
+	<path d="M95.7,256c-1.5-1.4-3.2-2.5-5.1-3.3c-1.9-0.7-3.9-1.1-6.1-1.1c-2.2,0-4.2,0.4-6.1,1.1s-3.6,1.8-5.1,3.3
+		c-1.5,1.4-2.7,3.1-3.4,5c-0.8,1.8-1.2,3.8-1.2,5.9s0.4,4,1.2,5.9c0.8,1.9,2,3.5,3.4,4.9c1.5,1.4,3.2,2.6,5.1,3.3
+		c1.9,0.8,3.9,1.1,6.1,1.1c2.1,0,4.2-0.4,6-1.1c1.9-0.8,3.6-1.9,5.2-3.3c1.5-1.4,2.7-3.1,3.5-5c0.8-1.8,1.2-3.8,1.2-5.8
+		c0-2.1-0.4-4-1.2-5.9C98.4,259.2,97.3,257.5,95.7,256z M87.9,270.9c-0.8,0.9-1.9,1.3-3.3,1.3s-2.5-0.4-3.3-1.3
+		c-0.8-1-1.2-2.3-1.2-4c0-1.7,0.4-3.1,1.2-4.1c0.8-0.9,1.9-1.4,3.3-1.4s2.5,0.4,3.3,1.4c0.8,1,1.2,2.3,1.2,4
+		C89.1,268.6,88.7,270,87.9,270.9z" data-page-node-id="yHDR7qefgBjoi4WzRHVcVr"/>
+	<path d="M133.2,252.5h-9.2c-0.5,0-1,0.4-1,1v14.2c0,2.5-0.5,3.7-0.9,4.3c-0.5,0.7-1.4,1.1-2.8,1.1c-1.3,0-2.2-0.3-2.8-1.1
+		c-0.6-0.8-0.9-2.2-0.9-4.3v-14.2c0-0.5-0.4-1-1-1h-8.9c-0.5,0-1,0.4-1,1v13.6c0,3.2,0.2,5.5,0.8,7c0.5,1.6,1.4,3.1,2.7,4.3
+		c1.3,1.3,3,2.2,4.8,2.9c1.8,0.6,4,0.9,6.5,0.9c2.5,0,4.6-0.3,6.5-0.9c1.9-0.6,3.5-1.6,4.8-2.9c1.2-1.2,2.2-2.7,2.7-4.3
+		c0.5-1.6,0.8-3.9,0.8-7v-13.6C134.2,253,133.8,252.5,133.2,252.5z" data-page-node-id="h4l6YFDJitWCptnD3clHHd"/>
+	<path d="M160.7,253.5c-1.1-0.6-2.2-1.1-3.3-1.4c-1.1-0.3-2.5-0.4-3.9-0.4c-4.3,0-7.9,1.4-10.7,4.3c-2.8,2.8-4.2,6.5-4.2,10.9
+		c0,4.5,1.4,8.3,4.1,11c2.7,2.8,6.3,4.3,10.7,4.3c1.3,0,2.5-0.1,3.7-0.5c1.2-0.3,2.4-0.8,3.6-1.5c0.3-0.2,0.5-0.5,0.5-0.9v-8.1
+		c0-0.4-0.2-0.8-0.6-0.9c-0.4-0.1-0.8,0-1.1,0.2c-0.7,0.7-1.3,1.2-2.1,1.5c-0.7,0.3-1.5,0.5-2.2,0.5c-1.7,0-2.9-0.5-3.9-1.5
+		c-1-1.1-1.4-2.4-1.4-4.2c0-1.9,0.5-3.3,1.4-4.4c0.9-1,2.1-1.5,3.7-1.5c0.8,0,1.5,0.1,2.2,0.5c0.8,0.3,1.5,0.9,2.4,1.6
+		c0.3,0.2,0.7,0.3,1.1,0.1c0.3-0.1,0.6-0.5,0.6-0.9v-7.9C161.2,254,161,253.7,160.7,253.5z" data-page-node-id="eUCgqf5hSNH2RWpPRwYavZ"/>
+	<path d="M196.2,258.9c-0.3-1.4-0.9-2.6-1.7-3.7c-1-1.1-2.2-2.1-3.7-2.7c-1.4-0.6-3.2-0.9-5-0.9c-2.4,0-4.5,0.5-6.2,1.5
+		c-0.9,0.5-1.6,1.1-2.4,1.9c0-0.5,0-1,0-1.5v-14.3c0-0.5-0.4-1-1-1H167c-0.5,0-1,0.4-1,1v40.8c0,0.5,0.4,1,1,1h9.2c0.5,0,1-0.4,1-1
+		v-11.2c0-3,0.4-5.2,1.2-6.5c0.7-1.1,1.8-1.7,3.4-1.7c1.2,0,2,0.3,2.5,1.1c0.6,0.8,0.9,2.2,0.9,4.1v14.3c0,0.5,0.4,1,1,1h9.4
+		c0.5,0,1-0.4,1-1v-15.3C196.6,262.2,196.5,260.3,196.2,258.9z" data-page-node-id="NnXC7OwXlmV6lcXiqJu2cW"/>
+</g>
+</svg>
+</div>
+        </div>
+        <div class="cap" data-page-node-id="0zfQ70VUBO7X26DTZgAWzF"><div class="cap-t" data-page-node-id="Uir03KhKhLkgh3SYfylEfL">竖版 · 浅色背景（黑标）</div><div class="cap-u" data-page-node-id="rf3nOaKBXKvGaTaRBmM4v2">社交方形位、启动页（浅底）</div></div>
+      </div>
+      <div class="card" data-page-node-id="YyEQCAwAWoGsPKEnN1ugXd">
+        <div class="stage dark" data-page-node-id="HVAiKoQLoLuyV9NWjBdT7O">
+          <div class="logo-box" data-page-node-id="2ruh0W9JBb5ge3DLbfTdAN"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 226.8 288.8" style="enable-background:new 0 0 226.8 288.8;" xml:space="preserve" data-page-node-id="1FOFgzeWKkmwv4d0NbwECN">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#CD65F3;}
+</style>
+<g data-page-node-id="H07FtETJVR7U6xsQ6kS9si">
+	<path class="st0" d="M190.4,81.3L119,42.1c-3.5-1.9-7.8-1.9-11.3,0L36.4,81.3c-3.8,2.1-6.1,6-6.1,10.3V169c0,4.3,2.3,8.2,6.1,10.3
+		l71.4,39.2c3.5,1.9,7.8,1.9,11.3,0l71.4-39.2c3.8-2.1,6.1-6,6.1-10.3V91.6C196.4,87.3,194.2,83.3,190.4,81.3z M183.4,163
+		c0,3.4-1.9,6.5-4.8,8.2l-60.8,33.2c-2.8,1.5-6.1,1.5-8.9,0l-60.9-33.2c-3-1.6-4.8-4.8-4.8-8.2V97.5c0-3.4,1.9-6.5,4.8-8.2L109,56.1
+		c2.8-1.5,6.1-1.5,8.9,0l65.7,35.8l0,0L183.4,163L183.4,163z" data-page-node-id="AnqGXF4XsCg7guIWc0PGB0"/>
+	<path class="st1" d="M117.9,116.4V68.8c0-2.1,2.3-3.5,4.2-2.5L166.4,90c2,1.1,2,3.9,0,5l-44.3,23.9
+		C120.2,119.9,117.9,118.6,117.9,116.4z" data-page-node-id="QscBMoK2xFWKUjUDG97ZVq"/>
+	<path class="st0" d="M109.6,139.6v48.1c0,2.1-2.3,3.5-4.2,2.5l-44.7-23.9c-2-1.1-2-3.9,0-5l44.7-24.1
+		C107.2,136.1,109.6,137.5,109.6,139.6z" data-page-node-id="jDbyJMCCEwRqnAIQEaRH51"/>
+	<path class="st1" d="M109.6,68.8v47.8c0,2.1-2.3,3.5-4.2,2.5L61.1,95c-2-1.1-2-3.9,0-5l44.4-23.7C107.2,65.3,109.6,66.7,109.6,68.8
+		z" data-page-node-id="sPHPLF3ce9bTZRxWyCljB2"/>
+	<path class="st0" d="M51.7,152.2v-48.3c0-2.1,2.3-3.5,4.2-2.5l44.5,24.2c2,1.1,2,3.9,0,5l-44.6,24.1
+		C53.9,155.7,51.7,154.3,51.7,152.2z" data-page-node-id="WrnyDmBQw3b5ASaxfkTsTy"/>
+	<path class="st0" d="M145.7,6.8c2.3,0,4.1,1.9,4.2,4.2c0.1,6.6-0.9,19.7-9,27.9s-21.1,9.2-27.6,9.1c-2.3,0-4.1-1.9-4.2-4.2
+		c-0.1-6.6,0.9-19.7,9-27.9C126.1,7.7,139.2,6.7,145.7,6.8z" data-page-node-id="RFiwtbv3vzdBxeAXAtX2oj"/>
+	<path class="st1" d="M167.9,117.5c-0.6-0.5-1.3-0.5-2-0.2l-10.8,6.1c-0.4,0.2-0.7,0.6-0.8,1l-7.3,25l-6.8-15.3
+		c-0.2-0.5-0.6-0.8-1.1-1s-1-0.1-1.4,0.1l-10.8,6.1c-0.8,0.5-1.1,1.5-0.7,2.4l15.6,28.8c0.2,0.4,0.6,0.7,1.1,0.9
+		c0.2,0,0.3,0.1,0.5,0.1c0.3,0,0.6-0.1,0.9-0.2l7.7-4.4c0.4-0.2,0.7-0.6,0.8-1l15.6-46.5C168.7,118.8,168.4,118,167.9,117.5z" data-page-node-id="d4L0U9RoN0mFBkEfqtVXP0"/>
+</g>
+<g data-page-node-id="ajSbtSKY2o0DdKIpeaydUR">
+	<path class="st0" d="M72.4,241c-0.2-0.3-0.5-0.4-0.8-0.4H60.4c-0.4,0-0.8,0.3-1,0.7l-7.7,21.6c-0.1,0.3-0.2,0.7-0.4,1.3
+		c-0.2-0.7-0.3-1.1-0.4-1.4l-7.7-21.6c-0.1-0.4-0.5-0.7-1-0.7H31.1c-0.3,0-0.6,0.1-0.8,0.4c-0.2,0.3-0.2,0.6-0.1,1l16.2,38.6
+		c0.1,0.4,0.5,0.6,0.9,0.6h8c0.4,0,0.8-0.2,0.9-0.6l16.2-38.6C72.6,241.6,72.6,241.3,72.4,241z" data-page-node-id="ca2BvY5AJKIdahso94Qmp7"/>
+	<path class="st0" d="M95.7,256c-1.5-1.4-3.2-2.5-5.1-3.3c-1.9-0.7-3.9-1.1-6.1-1.1c-2.2,0-4.2,0.4-6.1,1.1s-3.6,1.8-5.1,3.3
+		c-1.5,1.4-2.7,3.1-3.4,5c-0.8,1.8-1.2,3.8-1.2,5.9s0.4,4,1.2,5.9c0.8,1.9,2,3.5,3.4,4.9c1.5,1.4,3.2,2.6,5.1,3.3
+		c1.9,0.8,3.9,1.1,6.1,1.1c2.1,0,4.2-0.4,6-1.1c1.9-0.8,3.6-1.9,5.2-3.3c1.5-1.4,2.7-3.1,3.5-5c0.8-1.8,1.2-3.8,1.2-5.8
+		c0-2.1-0.4-4-1.2-5.9C98.4,259.2,97.3,257.5,95.7,256z M87.9,270.9c-0.8,0.9-1.9,1.3-3.3,1.3s-2.5-0.4-3.3-1.3
+		c-0.8-1-1.2-2.3-1.2-4c0-1.7,0.4-3.1,1.2-4.1c0.8-0.9,1.9-1.4,3.3-1.4s2.5,0.4,3.3,1.4c0.8,1,1.2,2.3,1.2,4
+		C89.1,268.6,88.7,270,87.9,270.9z" data-page-node-id="uWe6ShCq4CHGJWM0fAxeHB"/>
+	<path class="st0" d="M133.2,252.5h-9.2c-0.5,0-1,0.4-1,1v14.2c0,2.5-0.5,3.7-0.9,4.3c-0.5,0.7-1.4,1.1-2.8,1.1
+		c-1.3,0-2.2-0.3-2.8-1.1c-0.6-0.8-0.9-2.2-0.9-4.3v-14.2c0-0.5-0.4-1-1-1h-8.9c-0.5,0-1,0.4-1,1v13.6c0,3.2,0.2,5.5,0.8,7
+		c0.5,1.6,1.4,3.1,2.7,4.3c1.3,1.3,3,2.2,4.8,2.9c1.8,0.6,4,0.9,6.5,0.9c2.5,0,4.6-0.3,6.5-0.9c1.9-0.6,3.5-1.6,4.8-2.9
+		c1.2-1.2,2.2-2.7,2.7-4.3c0.5-1.6,0.8-3.9,0.8-7v-13.6C134.2,253,133.8,252.5,133.2,252.5z" data-page-node-id="lUnX9rVO6FA2vNg4ppr3i7"/>
+	<path class="st0" d="M160.7,253.5c-1.1-0.6-2.2-1.1-3.3-1.4c-1.1-0.3-2.5-0.4-3.9-0.4c-4.3,0-7.9,1.4-10.7,4.3
+		c-2.8,2.8-4.2,6.5-4.2,10.9c0,4.5,1.4,8.3,4.1,11c2.7,2.8,6.3,4.3,10.7,4.3c1.3,0,2.5-0.1,3.7-0.5c1.2-0.3,2.4-0.8,3.6-1.5
+		c0.3-0.2,0.5-0.5,0.5-0.9v-8.1c0-0.4-0.2-0.8-0.6-0.9c-0.4-0.1-0.8,0-1.1,0.2c-0.7,0.7-1.3,1.2-2.1,1.5c-0.7,0.3-1.5,0.5-2.2,0.5
+		c-1.7,0-2.9-0.5-3.9-1.5c-1-1.1-1.4-2.4-1.4-4.2c0-1.9,0.5-3.3,1.4-4.4c0.9-1,2.1-1.5,3.7-1.5c0.8,0,1.5,0.1,2.2,0.5
+		c0.8,0.3,1.5,0.9,2.4,1.6c0.3,0.2,0.7,0.3,1.1,0.1c0.3-0.1,0.6-0.5,0.6-0.9v-7.9C161.2,254,161,253.7,160.7,253.5z" data-page-node-id="WE2HNxl9SGABZZArz32sH8"/>
+	<path class="st0" d="M196.2,258.9c-0.3-1.4-0.9-2.6-1.7-3.7c-1-1.1-2.2-2.1-3.7-2.7c-1.4-0.6-3.2-0.9-5-0.9c-2.4,0-4.5,0.5-6.2,1.5
+		c-0.9,0.5-1.6,1.1-2.4,1.9c0-0.5,0-1,0-1.5v-14.3c0-0.5-0.4-1-1-1H167c-0.5,0-1,0.4-1,1v40.8c0,0.5,0.4,1,1,1h9.2c0.5,0,1-0.4,1-1
+		v-11.2c0-3,0.4-5.2,1.2-6.5c0.7-1.1,1.8-1.7,3.4-1.7c1.2,0,2,0.3,2.5,1.1c0.6,0.8,0.9,2.2,0.9,4.1v14.3c0,0.5,0.4,1,1,1h9.4
+		c0.5,0,1-0.4,1-1v-15.3C196.6,262.2,196.5,260.3,196.2,258.9z" data-page-node-id="6rfONVA8CDqlD3iT0KWVCR"/>
+</g>
+</svg>
+</div>
+        </div>
+        <div class="cap" data-page-node-id="9nUFeuNg6u0hzQUcmq0r3x"><div class="cap-t" data-page-node-id="pjtJ0IgFS9cGSGa1ILhBr1">竖版 · 深色背景（白标）</div><div class="cap-u" data-page-node-id="JCQyiiUcHdkPnKC3211QXD">社交方形位、启动页（深底）</div></div>
+      </div>
+    </div>
+
+    <h2 data-page-node-id="vtICFpT8x27oxFZxHZI4oU">可以做 / 不可以做</h2>
+    <p class="sub" data-page-node-id="GZQ9yC5ZwOrvQenpXs51dK">非设计同事照这条来，基本不会出错。</p>
+    <div class="two" data-page-node-id="mb8bN6tCnjG9SQrSJe7Ozp">
+      <div class="panel ok" data-page-node-id="AmfRb7egLinJXmJBk8T5Td">
+        <h3 class="ok-h" data-page-node-id="KCP6Sv3qYkVQdbef2AfZwY">✅ 可以</h3>
+        <ul data-page-node-id="vK9iAWBGuqBfaHcRnTs41z">
+          <li data-page-node-id="uLSH0hGeop2d8C9NOT83na">按背景深浅选对版本（浅底→浅色背景文件，深底→深色背景文件）</li>
+          <li data-page-node-id="LoZJcVDwa699bwDEdDWjk5">等比缩放，锁定宽高比</li>
+          <li data-page-node-id="tNgwiCUNbPOmdrZhFvFQXI">网页/开发用 SVG，文档用 PNG，印刷用 PDF</li>
+          <li data-page-node-id="VZxLYtU1QCXrHXUja08pYs">放在对比度足够、干净的纯色背景上</li>
+        </ul>
+      </div>
+      <div class="panel no" data-page-node-id="WOY01CTtEEtNCOjpzzbd3A">
+        <h3 class="no-h" data-page-node-id="R8IeWmhhf0NLuXoG7HDG6z">❌ 绝对禁止</h3>
+        <ul data-page-node-id="A5NNLuaTKyIgluobCGOQ5C">
+          <li data-page-node-id="O2eQrkGqojTgnIdsIEFQ38">改颜色、把紫色 #CD65F3 换成别的颜色</li>
+          <li data-page-node-id="rqTfrEATPljGR02i7xZfZW">压成纯灰阶 / 单色处理</li>
+          <li data-page-node-id="EEfLj0X2paKiQL2lwZG2WX">拉伸 / 压扁 / 旋转 / 倾斜</li>
+          <li data-page-node-id="emnCaBoRkG8b4V2bzHy0hx">加阴影 / 描边 / 外发光等特效</li>
+          <li data-page-node-id="2SjiUPwaMzBcpfOhSjCzkp">把图形标和「Vouch」文字拆开重排</li>
+        </ul>
+      </div>
+    </div>
+
+    <footer data-page-node-id="lV8VBQX0iPji6XGnX7lcKa">Vouch Logo VI 规范 · 由品牌资产整理生成 · 源文件见 源文件/ 目录</footer>
+  </div>
+</body>
+</html>

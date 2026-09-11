@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-page-node-id="AQHw3MdPVnMDHTk7XC8Bj5">
+<head data-page-node-id="mO4TMiqID0IsOcG35n14JH">
+<meta charset="utf-8" data-page-node-id="2paEj80MOVZw3bd5lLEKFG">
+<meta name="viewport" content="width=device-width, initial-scale=1" data-page-node-id="c18tTJ56SYxmTGGwfRumDg">
+<title>品牌 VI Skill 使用手册</title>
+<style>
+  :root{--ink:#1f2330;--muted:#6b7280;--line:#e6e8ee;--bg:#ffffff;--accent:#553dde;--ok:#1f7a35;--no:#b3261e;}
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei","Noto Sans TC",sans-serif;color:var(--ink);background:var(--bg);line-height:1.7;}
+  .wrap{max-width:860px;margin:0 auto;padding:40px 24px 64px;}
+  .langbar{display:flex;gap:8px;justify-content:flex-end;margin:0 0 18px;}
+  .lang-btn{font:inherit;font-size:13px;padding:6px 14px;border:1px solid var(--line);background:#fff;color:var(--muted);border-radius:999px;cursor:pointer;transition:all .15s;}
+  .lang-btn:hover{border-color:var(--accent);color:var(--accent);}
+  .lang-btn.active{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600;}
+  h1{font-size:26px;margin:0 0 6px;}
+  .lead{color:var(--muted);margin:0 0 30px;font-size:15px;}
+  h2{font-size:19px;margin:38px 0 12px;padding-left:12px;border-left:4px solid var(--accent);}
+  p,li{font-size:15px;}
+  .step{display:flex;gap:14px;align-items:flex-start;background:#f8f9fc;border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:10px 0;}
+  .step .n{flex:0 0 28px;height:28px;border-radius:50%;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:14px;}
+  .step-t{display:block;margin-bottom:2px;font-weight:600;}
+  .step-d{display:block;font-size:15px;}
+  .q{background:#f3f4f8;border-left:3px solid var(--accent);padding:8px 14px;margin:8px 0;border-radius:0 8px 8px 0;font-size:14px;color:#333;}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14px;}
+  th,td{border:1px solid var(--line);padding:9px 12px;text-align:left;vertical-align:top;}
+  th{background:#f5f6fa;font-weight:600;}
+  .warn{background:#fff7e6;border:1px solid #ffe1a8;border-radius:12px;padding:14px 18px;margin:12px 0;font-size:14px;color:#7a5a10;}
+  .keynote{background:linear-gradient(180deg,#fff9ea,#fff0d0);border:2px solid #f0c14b;border-left:7px solid #e0a02e;border-radius:14px;padding:20px 24px;margin:18px 0;font-size:15px;line-height:1.8;color:#5c3f04;box-shadow:0 6px 20px rgba(224,160,46,.20);}
+  .keynote b{color:#432d00;font-size:15.5px;}
+  .keynote code{background:#ffedc2;color:#6b4a08;}
+  .dowrong{background:#fdf3f3;border:1px solid #f3cfcf;border-radius:12px;padding:14px 18px;margin:12px 0;}
+  .dowrong h3{margin:0 0 8px;color:var(--no);font-size:15px;}
+  .dowrong li{color:#8a2b25;}
+  .okbox{background:#f3fbf4;border:1px solid #cdeccf;border-radius:12px;padding:14px 18px;margin:12px 0;}
+  .okbox h3{margin:0 0 8px;color:var(--ok);font-size:15px;}
+  code{background:#eef0f5;padding:1px 6px;border-radius:5px;font-size:13px;}
+  footer{margin-top:40px;color:var(--muted);font-size:12px;text-align:center;}
+</style>
+</head>
+<body data-page-node-id="1e2c7qaexHsT8GVKUygsvr">
+<div class="wrap" data-page-node-id="Yr2wChjuuctcLwGu7mbDSW">
+
+  <div class="langbar" data-page-node-id="KmmCY6hHffe9TtscseReu7">
+    <button class="lang-btn active" data-lang="zh" type="button" data-page-node-id="zewge2FTuqKPtjrwjHN1nS">简体</button>
+    <button class="lang-btn" data-lang="zhHant" type="button" data-page-node-id="68KrnZihhzmVfJHkDsgZcs">繁體</button>
+    <button class="lang-btn" data-lang="en" type="button" data-page-node-id="v4sJzRGFyuxSCjFbUExBGf">English</button>
+  </div>
+
+  <h1 data-i18n="h1" data-page-node-id="TwCNTQxPdpeEKx6Z6DSPrC">品牌 VI Skill 使用手册</h1>
+  <p class="lead" data-i18n="lead" data-page-node-id="qVDqWnQNzLc3bMllzPAn5q">给非设计同事看的一份极简操作说明：怎么把品牌 logo 用对，不踩坑。</p>
+
+  <h2 data-i18n="h_what" data-page-node-id="GjR0B31j17rPknRlJbMF8U">这是什么</h2>
+  <p data-i18n-html="p_what" data-page-node-id="MzfwbWz8H848zEDaN1RVNd">这些是品牌 logo 的 AI 使用规范「技能（Skill）」。在已经启用 Skill 的 AI 工作环境中，你只需用大白话告诉 AI 你要哪个品牌的 logo、用在什么场景，AI 就会自动调出对应规范，<strong data-page-node-id="nUpR3u5Hljuq0DHnAdKVE1">帮你把 logo 正确地用上，并提醒你哪些不能做</strong>。你不用懂设计，交给 AI 就行。</p>
+
+  <div class="keynote" data-i18n-html="keynote" data-page-node-id="nhwFGAtfx4kb1z24gp5MOz">📦 <b data-page-node-id="9g9EXjJZ0md5IDqcUoiq7u">下载 Skill 后怎么用</b>：打开 AI 的「技能」面板 → 点「<b data-page-node-id="4YYrFIVVRJbzQvk36TVLwQ">添加技能</b>」→ 选「<b data-page-node-id="psUhi8MF5HYBVX70gB9KcI">上传技能</b>」，把下载的技能包（如 <code data-page-node-id="1RtqGGDAXxDFuzkvXSYlQt">uptick-hk-logo-vi.zip</code>）拖进去或点选文件 → <b data-page-node-id="LF6AXXIarYBzhzW1TQZW7n">导入后自动配置完成</b>。装好的技能会出现在「已安装」列表，使用时 AI 会自动调用；也可在列表里随时启用 / 关闭。</div>
+
+  <h2 data-i18n="h_steps" data-page-node-id="FJGdL5I0OcB9J5EMAcaOiB">使用时怎么操作（3 步）</h2>
+
+  <div class="step" data-page-node-id="6apqHeeAKv7suaWZNy4uT4">
+    <div class="n" data-page-node-id="F5UKVGj6pojMTcMzP1yzr7">1</div>
+    <div data-page-node-id="pR9Ikb7DLBr3VTJYvsN2q5">
+      <b class="step-t" data-i18n="s1t" data-page-node-id="KB1RGhYycWILUHv3HfcxOe">在 AI 对话框里选择「技能」</b>
+      <span class="step-d" data-i18n-html="s1d" data-page-node-id="av2yzBueFk6P70ObQ5FrNS">从「技能」列表中选中你要用的品牌 logo VI Skill（例如 <b data-page-node-id="kJRurvG5YDfWklH1OAHIrQ">Uptick香港 logo VI</b>）。</span>
+    </div>
+  </div>
+  <div class="step" data-page-node-id="JWCSRjoG7EVxxYkTnNDWiJ">
+    <div class="n" data-page-node-id="4xc9InAps7tPHM2Z4rv3no">2</div>
+    <div data-page-node-id="tgjDGynPBdW2ELSVJdUcEo">
+      <b class="step-t" data-i18n="s2t" data-page-node-id="qWo7qGFOz6WzEbmvRQmzPu">用大白话说明你要什么</b>
+      <span class="step-d" data-i18n-html="s2d" data-page-node-id="1HbvHFPL9jgDY5iP58J1sF">说清「哪个品牌 + 用在哪儿（这个页面 / 图片 / 文件）+ 横版还是竖版」。不用专业术语，AI 听得懂。</span>
+    </div>
+  </div>
+  <div class="step" data-page-node-id="gbGcBFTfcgdS1cGO3zKhAv">
+    <div class="n" data-page-node-id="CKYYcg04wWkfCcbBcwG3iw">3</div>
+    <div data-page-node-id="QhmeKZMaeVKbUhHdZCI9jc">
+      <b class="step-t" data-i18n="s3t" data-page-node-id="LCv8JJ1whFz9Jw5YJtYCe7">让 AI 直接用上去</b>
+      <span class="step-d" data-i18n-html="s3d" data-page-node-id="pzI2BerE9hFwLHeo95jv9c">AI 会自动按规范选用正确的版本，直接应用到你的页面 / 图片 / 文件上，<b data-page-node-id="WHEn6zBw75m7B2bPHegoib">你不用自己去取文件</b>。要指定版式时，补一句「横版」或「竖版」即可。</span>
+    </div>
+  </div>
+
+  <h2 data-i18n="h_ask" data-page-node-id="ZgEtjTDunLSLzA4K0iCrQ9">你可以这样问（直接复制改改）</h2>
+  <div class="q" data-i18n-html="q1" data-page-node-id="TCvXR3NF8puqQC1oco9KHM">「帮我在这个落地页的页眉加上 <b data-page-node-id="wewDL0A1s4YDJwU3uJrafQ">Uptick香港</b> 的 logo，用横版。」</div>
+  <div class="q" data-i18n-html="q2" data-page-node-id="y10wJywMTjBMIMgqwIVGp8">「这张深色底的海报上放 <b data-page-node-id="6XJ9lW0FGUwJheht94hhtE">UptickNetwork</b> 的 logo，你直接处理。」</div>
+  <div class="q" data-i18n-html="q3" data-page-node-id="QRTaQFrdFbPWgtdtVG8vAG">「把 <b data-page-node-id="h50KhHIegVLp48AuXdXjGx">Uptick app</b> 的 logo 换到网页页脚。」</div>
+  <div class="q" data-i18n-html="q4" data-page-node-id="fvN6wwAq883nmGQpazs1Tt">「<b data-page-node-id="i1JyocV6yM9NCJTceMH5Pz">RWA</b> 的主 logo 能不能改成金色渐变？」（AI 会告诉你不能）</div>
+
+  <h2 data-i18n="h_table" data-page-node-id="EYbMoS2ATHHUaozQAxJaCY">7 个品牌速查</h2>
+  <table data-page-node-id="QRrqiz9NAmbDwLLessQMeJ">
+    <tr data-page-node-id="sfxcSF1MwAeF8szeCpStGD"><th data-i18n="th1" data-page-node-id="hRT9Gw58JFC37ZHBs4rNU3">品牌</th><th data-i18n="th2" data-page-node-id="BabMOPWcCt706wk4EBCiQe">一句话</th><th data-i18n="th3" data-page-node-id="UqUSlw5ynKczIGyXjyStvg">特别注意</th></tr>
+    <tr data-page-node-id="ABRMH37LKPxiLArkc3Aai0">
+      <td data-i18n="r1n" data-page-node-id="BTfhVlayjn7ZDAa56VE4G7">UptickNetwork</td>
+      <td data-i18n="r1a" data-page-node-id="2C9BTVl4Y8THcsgcJ5LZpf">紫罗兰渐变 logo</td>
+      <td data-i18n="r1b" data-page-node-id="mi6fnW0hgIyDSPhz2UC2n1">分浅底 / 深底两套，别混用</td>
+    </tr>
+    <tr data-page-node-id="eh3zAaykZnX9YZMpg8CCmd">
+      <td data-i18n="r2n" data-page-node-id="v6Tndn47Beo9HafpUkYEMW">Uptick香港</td>
+      <td data-i18n="r2a" data-page-node-id="EtoytcdB5yHDnB2i39gLuD">粉红渐变 logo</td>
+      <td data-i18n="r2b" data-page-node-id="kHIEhNU2lAt4YeES1GrZLX">分横版 / 方形标 / 上下组合，深底用白版</td>
+    </tr>
+    <tr data-page-node-id="xZWNeOCXZ3V2OozTvLC3r8">
+      <td data-i18n="r3n" data-page-node-id="omX2EOUeRB5rkdafka9fyT">Upward</td>
+      <td data-i18n="r3a" data-page-node-id="7yBsphhns0v9uVfWlabgpz">极光渐变 logo</td>
+      <td data-i18n="r3b" data-page-node-id="DYC3pkjLOobNC96OSWTsFs">渐变颜色固定，禁止改色</td>
+    </tr>
+    <tr data-page-node-id="ffA4jB5JgDrujYx3igmDXj">
+      <td data-i18n="r4n" data-page-node-id="ljRsqolKX1PQncNY0Rb72B">Uptick RWA</td>
+      <td data-i18n="r4a" data-page-node-id="727r9Vnz7utvdjMPctCqO4">黑白主 logo + upbao 子图案</td>
+      <td data-i18n-html="r4b" data-page-node-id="bXo7MfmUdYVztDNlNsfpNz">主 logo 是单色，<b data-page-node-id="ssEanyNyoJTsf7dBi6BgIx">不要</b>改成金色渐变</td>
+    </tr>
+    <tr data-page-node-id="ZXaIPOeVCag25zb42hdfUl">
+      <td data-i18n="r5n" data-page-node-id="orXK3rDOwxGihtF3BVPrGM">Uptick（双产品线）</td>
+      <td data-i18n="r5a" data-page-node-id="5yFN5eZcXycGGkhON6wonD">App 紫渐变 / Web 极光渐变</td>
+      <td data-i18n-html="r5b" data-page-node-id="gaNT5GvDqxLOUnQv3Y6EAH">两条线颜色系统不同，<b data-page-node-id="vURTHYr4h5lD0UTWhLS8Yp">严禁混用</b></td>
+    </tr>
+    <tr data-page-node-id="EY1z21MBZuBKch2wGwDmjU">
+      <td data-i18n="r6n" data-page-node-id="tJ4LNxqOyLZF1x5eLn2VSI">Vouch</td>
+      <td data-i18n="r6a" data-page-node-id="GYkPo7pGFhx0X3uWpR3d8L">单色标 + 紫色点缀</td>
+      <td data-i18n="r6b" data-page-node-id="eNIcskeJ71dmCaZCiPxVvm">浅底黑标 / 深底白标；紫色是品牌色，别换</td>
+    </tr>
+    <tr data-page-node-id="51wKgAksDM0EmB2WJCIsqS">
+      <td data-i18n="r7n" data-page-node-id="DuIuGdwoSKgI6o26Bh3TOD">Cardible</td>
+      <td data-i18n="r7a" data-page-node-id="VUMQCfXmImsp5KZfgN2LII">多色全彩 logo</td>
+      <td data-i18n-html="r7b" data-page-node-id="goNE6pUiVfGYkEU9lqAtOa"><b data-page-node-id="Tv3oHKtEzvRjzG4nCc8TY2">只有浅底一套</b>，深底要另出，别直接反白</td>
+    </tr>
+  </table>
+
+  <h2 data-i18n="h_rules" data-page-node-id="nENijNaKOsduvzFYDoxeVM">通用注意事项（红线，务必遵守）</h2>
+  <div class="dowrong" data-page-node-id="DzVLSzgFeFdaDiFIdgJ4cK">
+    <h3 data-i18n="h_dont" data-page-node-id="8JFC1CJChuTC9nbnVVf2Au">❌ 绝对不要做</h3>
+    <ul data-page-node-id="KFd5WyPGolDDU7Ry69AJAt">
+      <li data-i18n="d1" data-page-node-id="4vXv0q3nB0YDDD1iZuTkCU">自己改颜色、把彩色压成单色 / 灰阶</li>
+      <li data-i18n="d2" data-page-node-id="ZFZ5yj0gHXAptfH15W144E">拉伸、压扁、旋转、倾斜 logo</li>
+      <li data-i18n="d3" data-page-node-id="2EZwRV7P3dLhKT7w6b1OHp">给 logo 加阴影、描边、底块、发光等特效</li>
+      <li data-i18n="d4" data-page-node-id="5VfucDdWaUuYCEDAInasTm">把图标和文字拆开重新排版</li>
+      <li data-i18n="d5" data-page-node-id="Co8Qpq1Ff2rf7HiuE9w80M">深色背景时，直接把浅底 logo 反白当深底版用（Cardible 尤其注意）</li>
+    </ul>
+  </div>
+  <div class="okbox" data-page-node-id="dYbHMgA8R3CpZ0yDllojbc">
+    <h3 data-i18n="h_do" data-page-node-id="s9vxtM8ytY0ryuze1L5pmH">✅ 这样用就对了</h3>
+    <ul data-page-node-id="44Qwk9EZXopLK7qbsN5B8T">
+      <li data-i18n="o1" data-page-node-id="M6wd8CAF5p1Dh3rFJPiPKN">让 AI 用现成版本，不要自己动手调</li>
+      <li data-i18n="o2" data-page-node-id="H8C72ADShAQfhY37B95xqD">深底 / 浅底交给 AI 自动选对应版本</li>
+      <li data-i18n="o3" data-page-node-id="DQ1HDa9ixNcLfFhkSCyEYh">网页 / 开发用 SVG，文档 / 聊天用 PNG，印刷用 PDF</li>
+      <li data-i18n="o4" data-page-node-id="oME9l8yY6JcreAnWlfGzTq">等比缩放，四周留点空白</li>
+    </ul>
+  </div>
+
+  <div class="warn" data-i18n-html="warn" data-page-node-id="Mf4E57TbZLDcglSrwSURnm">🤔 <b data-page-node-id="D5ALtqOK63DuRhZDvp4rXS">拿不准就问 AI</b>：任何关于「用哪个、能不能改、深底怎么办」的问题，先问 Skill，别凭感觉改。改错了比问一句麻烦得多。</div>
+
+  <footer data-i18n="footer" data-page-node-id="x6US7andwTUYtuWUQMSjyp">品牌 VI Skill 使用手册 · 给非设计同事 · 照着做就不会错</footer>
+</div>
+
+<script>
+var I18N = {
+  zh: {
+    title: "品牌 VI Skill 使用手册",
+    h1: "品牌 VI Skill 使用手册",
+    lead: "给非设计同事看的一份极简操作说明：怎么把品牌 logo 用对，不踩坑。",
+    h_what: "这是什么",
+    p_what: "这些是品牌 logo 的 AI 使用规范「技能（Skill）」。在已经启用 Skill 的 AI 工作环境中，你只需用大白话告诉 AI 你要哪个品牌的 logo、用在什么场景，AI 就会自动调出对应规范，<strong>帮你把 logo 正确地用上，并提醒你哪些不能做</strong>。你不用懂设计，交给 AI 就行。",
+    keynote: "📦 <b>下载 Skill 后怎么用</b>：打开 AI 的「技能」面板 → 点「<b>添加技能</b>」→ 选「<b>上传技能</b>」，把下载的技能包（如 <code>uptick-hk-logo-vi.zip</code>）拖进去或点选文件 → <b>导入后自动配置完成</b>。装好的技能会出现在「已安装」列表，使用时 AI 会自动调用；也可在列表里随时启用 / 关闭。",
+    h_steps: "使用时怎么操作（3 步）",
+    s1t: "在 AI 对话框里选择「技能」",
+    s1d: "从「技能」列表中选中你要用的品牌 logo VI Skill（例如 <b>Uptick香港 logo VI</b>）。",
+    s2t: "用大白话说明你要什么",
+    s2d: "说清「哪个品牌 + 用在哪儿（这个页面 / 图片 / 文件）+ 横版还是竖版」。不用专业术语，AI 听得懂。",
+    s3t: "让 AI 直接用上去",
+    s3d: "AI 会自动按规范选用正确的版本，直接应用到你的页面 / 图片 / 文件上，<b>你不用自己去取文件</b>。要指定版式时，补一句「横版」或「竖版」即可。",
+    h_ask: "你可以这样问（直接复制改改）",
+    q1: "「帮我在这个落地页的页眉加上 <b>Uptick香港</b> 的 logo，用横版。」",
+    q2: "「这张深色底的海报上放 <b>UptickNetwork</b> 的 logo，你直接处理。」",
+    q3: "「把 <b>Uptick app</b> 的 logo 换到网页页脚。」",
+    q4: "「<b>RWA</b> 的主 logo 能不能改成金色渐变？」（AI 会告诉你不能）",
+    h_table: "7 个品牌速查",
+    th1: "品牌", th2: "一句话", th3: "特别注意",
+    r1n: "UptickNetwork", r1a: "紫罗兰渐变 logo", r1b: "分浅底 / 深底两套，别混用",
+    r2n: "Uptick香港", r2a: "粉红渐变 logo", r2b: "分横版 / 方形标 / 上下组合，深底用白版",
+    r3n: "Upward", r3a: "极光渐变 logo", r3b: "渐变颜色固定，禁止改色",
+    r4n: "Uptick RWA", r4a: "黑白主 logo + upbao 子图案", r4b: "主 logo 是单色，<b>不要</b>改成金色渐变",
+    r5n: "Uptick（双产品线）", r5a: "App 紫渐变 / Web 极光渐变", r5b: "两条线颜色系统不同，<b>严禁混用</b>",
+    r6n: "Vouch", r6a: "单色标 + 紫色点缀", r6b: "浅底黑标 / 深底白标；紫色是品牌色，别换",
+    r7n: "Cardible", r7a: "多色全彩 logo", r7b: "<b>只有浅底一套</b>，深底要另出，别直接反白",
+    h_rules: "通用注意事项（红线，务必遵守）",
+    h_dont: "❌ 绝对不要做",
+    d1: "自己改颜色、把彩色压成单色 / 灰阶",
+    d2: "拉伸、压扁、旋转、倾斜 logo",
+    d3: "给 logo 加阴影、描边、底块、发光等特效",
+    d4: "把图标和文字拆开重新排版",
+    d5: "深色背景时，直接把浅底 logo 反白当深底版用（Cardible 尤其注意）",
+    h_do: "✅ 这样用就对了",
+    o1: "让 AI 用现成版本，不要自己动手调",
+    o2: "深底 / 浅底交给 AI 自动选对应版本",
+    o3: "网页 / 开发用 SVG，文档 / 聊天用 PNG，印刷用 PDF",
+    o4: "等比缩放，四周留点空白",
+    warn: "🤔 <b>拿不准就问 AI</b>：任何关于「用哪个、能不能改、深底怎么办」的问题，先问 Skill，别凭感觉改。改错了比问一句麻烦得多。",
+    footer: "品牌 VI Skill 使用手册 · 给非设计同事 · 照着做就不会错"
+  },
+  zhHant: {
+    title: "品牌 VI Skill 使用手冊",
+    h1: "品牌 VI Skill 使用手冊",
+    lead: "給非設計同事看的一份極簡操作說明：怎麼把品牌 logo 用對、不踩坑。",
+    h_what: "這是什麼",
+    p_what: "這些是品牌 logo 的 AI 使用規範「技能（Skill）」。在已啟用 Skill 的 AI 工作環境中，你只需用白話告訴 AI 你要哪個品牌的 logo、用在什麼場景，AI 就會自動調出對應規範，<strong>幫你把 logo 正確地用上，並提醒你哪些不能做</strong>。你不必懂設計，交給 AI 就行。",
+    keynote: "📦 <b>下載 Skill 後怎麼用</b>：開啟 AI 的「技能」面板 → 點「<b>新增技能</b>」→ 選「<b>上傳技能</b>」，把下載的技能包（如 <code>uptick-hk-logo-vi.zip</code>）拖進去或點選檔案 → <b>匯入後自動完成設定</b>。裝好的技能會出現在「已安裝」清單，使用時 AI 會自動呼叫；也可在清單中隨時啟用 / 關閉。",
+    h_steps: "使用時怎麼操作（3 步）",
+    s1t: "在 AI 對話框裡選擇「技能」",
+    s1d: "從「技能」清單中選中你要用的品牌 logo VI Skill（例如 <b>Uptick香港 logo VI</b>）。",
+    s2t: "用白話說明你要什麼",
+    s2d: "說清「哪個品牌 + 用在哪裡（這個頁面 / 圖片 / 檔案）+ 橫版還是豎版」。不用專業術語，AI 聽得懂。",
+    s3t: "讓 AI 直接用上去",
+    s3d: "AI 會自動依規範選用正確的版本，直接套用到你的頁面 / 圖片 / 檔案上，<b>你不必自己去取檔案</b>。要指定版式時，補一句「橫版」或「豎版」即可。",
+    h_ask: "你可以這樣問（直接複製修改）",
+    q1: "「幫我在這個落地頁的頁首加上 <b>Uptick香港</b> 的 logo，用橫版。」",
+    q2: "「這張深色底的海報上放 <b>UptickNetwork</b> 的 logo，你直接處理。」",
+    q3: "「把 <b>Uptick app</b> 的 logo 換到網頁頁尾。」",
+    q4: "「<b>RWA</b> 的主 logo 能不能改成金色漸層？」（AI 會告訴你不能）",
+    h_table: "7 個品牌速查",
+    th1: "品牌", th2: "一句話", th3: "特別注意",
+    r1n: "UptickNetwork", r1a: "紫羅蘭漸層 logo", r1b: "分淺底 / 深底兩套，別混用",
+    r2n: "Uptick香港", r2a: "粉紅漸層 logo", r2b: "分橫版 / 方形標 / 上下組合，深底用白版",
+    r3n: "Upward", r3a: "極光漸層 logo", r3b: "漸層顏色固定，禁止改色",
+    r4n: "Uptick RWA", r4a: "黑白主 logo + upbao 子圖案", r4b: "主 logo 是單色，<b>不要</b>改成金色漸層",
+    r5n: "Uptick（雙產品線）", r5a: "App 紫漸層 / Web 極光漸層", r5b: "兩條線顏色系統不同，<b>嚴禁混用</b>",
+    r6n: "Vouch", r6a: "單色標 + 紫色點綴", r6b: "淺底黑標 / 深底白標；紫色是品牌色，別換",
+    r7n: "Cardible", r7a: "多色全彩 logo", r7b: "<b>只有淺底一套</b>，深底要另出，別直接反白",
+    h_rules: "通用注意事項（紅線，務必遵守）",
+    h_dont: "❌ 絕對不要做",
+    d1: "自己改顏色、把彩色壓成單色 / 灰階",
+    d2: "拉伸、壓扁、旋轉、傾斜 logo",
+    d3: "給 logo 加陰影、描邊、底塊、發光等特效",
+    d4: "把圖標和文字拆開重新排版",
+    d5: "深色背景時，直接把淺底 logo 反白當深底版用（Cardible 尤其注意）",
+    h_do: "✅ 這樣用就對了",
+    o1: "讓 AI 用現成版本，不要自己動手調",
+    o2: "深底 / 淺底交給 AI 自動選對應版本",
+    o3: "網頁 / 開發用 SVG，文件 / 聊天用 PNG，印刷用 PDF",
+    o4: "等比縮放，四周留點空白",
+    warn: "🤔 <b>拿不準就問 AI</b>：任何關於「用哪個、能不能改、深底怎麼辦」的問題，先問 Skill，別憑感覺改。改錯了比問一句麻煩得多。",
+    footer: "品牌 VI Skill 使用手冊 · 給非設計同事 · 照著做就不會錯"
+  },
+  en: {
+    title: "Brand VI Skill — User Guide",
+    h1: "Brand VI Skill — User Guide",
+    lead: "A minimal how-to for non-designers: how to use brand logos the right way, without breaking the rules.",
+    h_what: "What this is",
+    p_what: "These are AI usage skills for brand logos. In an AI environment with the Skill enabled, just tell the AI in plain words which brand's logo you need and where you'll use it — the AI will automatically apply the right rules, <strong>place the logo correctly, and warn you what not to do</strong>. No design knowledge needed; just hand it to the AI.",
+    keynote: "📦 <b>How to install a Skill</b>: open the AI's \"Skills\" panel → click \"<b>Add Skill</b>\" → choose \"<b>Upload Skill</b>\", then drag in the downloaded skill package (e.g. <code>uptick-hk-logo-vi.zip</code>) or click to select the file → <b>it is set up automatically</b>. The installed skill appears in the \"Installed\" list and is used automatically in chat; you can enable or disable it anytime.",
+    h_steps: "How to use it (3 steps)",
+    s1t: "Pick the Skill in the AI chat",
+    s1d: "From the \"Skills\" list, select the brand logo VI Skill you need (e.g. <b>Uptick Hong Kong logo VI</b>).",
+    s2t: "Describe what you want in plain words",
+    s2d: "Say \"which brand + where (this page / image / file) + horizontal or vertical\". No jargon needed — the AI understands.",
+    s3t: "Let the AI apply it directly",
+    s3d: "The AI automatically picks the correct version and applies it to your page / image / file — <b>you never need to fetch any files yourself</b>. If you need a specific layout, just add \"horizontal\" or \"vertical\".",
+    h_ask: "Example prompts (copy and tweak)",
+    q1: "\"Add the <b>Uptick Hong Kong</b> logo to the header of this landing page — horizontal version.\"",
+    q2: "\"Put the <b>UptickNetwork</b> logo on this dark-background poster; go ahead and handle it.\"",
+    q3: "\"Swap the <b>Uptick app</b> logo into the website footer.\"",
+    q4: "\"Can the main <b>RWA</b> logo be recolored to a gold gradient?\" (The AI will tell you no.)",
+    h_table: "Quick reference — 7 brands",
+    th1: "Brand", th2: "In one line", th3: "Key caution",
+    r1n: "UptickNetwork", r1a: "Violet gradient logo", r1b: "Two sets (light / dark background); don't mix them up",
+    r2n: "Uptick Hong Kong", r2a: "Pink gradient logo", r2b: "Horizontal / square mark / stacked versions; use the white version on dark backgrounds",
+    r3n: "Upward", r3a: "Aurora gradient logo", r3b: "Gradient colors are fixed — do not recolor",
+    r4n: "Uptick RWA", r4a: "Black-and-white main logo + upbao sub-mark", r4b: "The main logo is monochrome — <b>don't</b> recolor it to a gold gradient",
+    r5n: "Uptick (two product lines)", r5a: "App purple gradient / Web aurora gradient", r5b: "The two lines use different color systems — <b>never mix them</b>",
+    r6n: "Vouch", r6a: "Monochrome mark + purple accent", r6b: "Black mark on light backgrounds / white on dark; the purple is the brand color — don't change it",
+    r7n: "Cardible", r7a: "Multi-color full-color logo", r7b: "<b>Light background only</b> — request a separate dark version; don't just invert it",
+    h_rules: "General rules (red lines you must follow)",
+    h_dont: "❌ Never do this",
+    d1: "Recolor the logo, or flatten full-color versions to mono / grayscale",
+    d2: "Stretch, squash, rotate, or skew the logo",
+    d3: "Add shadows, outlines, background blocks, glows, or other effects",
+    d4: "Break the icon and the wordmark apart and re-layout them",
+    d5: "On dark backgrounds, invert a light-background logo and call it the dark version (especially for Cardible)",
+    h_do: "✅ Do this instead",
+    o1: "Let the AI use the ready-made version — don't adjust it yourself",
+    o2: "Let the AI pick the matching light / dark version",
+    o3: "SVG for web / dev, PNG for documents / chat, PDF for print",
+    o4: "Scale proportionally, and leave some clear space around it",
+    warn: "🤔 <b>Not sure? Just ask the AI.</b> For anything about \"which one to use, can I change it, what about dark backgrounds\" — ask the Skill first, don't improvise. Fixing a mistake takes far longer than asking.",
+    footer: "Brand VI Skill User Guide · For non-designers · Follow it and you can't go wrong"
+  }
+};
+
+var LANGS = ["zh", "zhHant", "en"];
+var DEFAULT_LANG = "zh";
+
+function applyLang(lang) {
+  if (LANGS.indexOf(lang) === -1) { lang = DEFAULT_LANG; }
+  var dict = I18N[lang] || I18N[DEFAULT_LANG];
+
+  document.documentElement.lang = lang === "zh" ? "zh-CN" : (lang === "zhHant" ? "zh-Hant" : "en");
+
+  var els = document.querySelectorAll("[data-i18n]");
+  for (var i = 0; i < els.length; i++) {
+    var k = els[i].getAttribute("data-i18n");
+    if (dict[k] != null) { els[i].textContent = dict[k]; }
+  }
+
+  var elsHtml = document.querySelectorAll("[data-i18n-html]");
+  for (var j = 0; j < elsHtml.length; j++) {
+    var k2 = elsHtml[j].getAttribute("data-i18n-html");
+    if (dict[k2] != null) { elsHtml[j].innerHTML = dict[k2]; }
+  }
+
+  if (dict.title) { document.title = dict.title; }
+
+  var btns = document.querySelectorAll(".lang-btn");
+  for (var m = 0; m < btns.length; m++) {
+    btns[m].classList.toggle("active", btns[m].getAttribute("data-lang") === lang);
+  }
+
+  try { localStorage.setItem("viGuideLang", lang); } catch (e) {}
+}
+
+var langBtns = document.querySelectorAll(".lang-btn");
+for (var n = 0; n < langBtns.length; n++) {
+  langBtns[n].addEventListener("click", function () {
+    applyLang(this.getAttribute("data-lang"));
+  });
+}
+
+(function () {
+  var saved = null;
+  try { saved = localStorage.getItem("viGuideLang"); } catch (e) {}
+  applyLang(LANGS.indexOf(saved) !== -1 ? saved : DEFAULT_LANG);
+})();
+</script>
+</body>
+</html>
