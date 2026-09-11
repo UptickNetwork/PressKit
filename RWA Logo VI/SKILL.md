@@ -1,6 +1,7 @@
 ---
 name: rwa-logo-vi
-description: Uptick RWA 品牌 logo 与 upbao 子图案使用规范（VI）。帮非设计同事选对 logo、避免把主 logo 改成金色渐变、避免把 upbao 压成单色、避免改色/拉伸等误用。
+description: Uptick RWA 品牌 logo 与 upbao 子图案使用规范（VI）。当用户问 RWA logo / upbao 在哪、深色背景用哪个、主 logo 能不能改成金色渐变、upbao 能不能压成单色、能不能改色或拉伸时，加载本技能并给出标准文件与规则。包含横版字标、图案标、upbao 子图案三种版式，各含浅色 / 深色背景两套，SVG/PNG/PDF 格式，以及留白、最小尺寸、可做·禁止清单。
+agent_created: true
 ---
 
 # RWA Logo VI

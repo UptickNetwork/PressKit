@@ -1,14 +1,7 @@
 ---
 name: uptick-brand-vi
-title: "Uptick Logo VI"
-description: "Uptick 品牌 logo 使用规范（含 App 紫色渐变与 Web Marketplace 极光渐变两条线）"
-summary: "Uptick 品牌 logo 使用规范（含 App 紫色渐变与 Web Marketplace 极光渐变两条线）"
-read_when:
-  - 用户询问 Uptick logo 应该用哪个版本
-  - 用户问深色背景用哪个 logo
-  - 用户问 App 和 Web Marketplace 的 logo 颜色区别
-  - 用户问 logo 能不能改色/拉伸
-  - 用户需要 Uptick logo 源文件
+description: Uptick 品牌 logo 使用规范（VI），含 App 紫色渐变与 Web Marketplace 极光渐变两条产品线。当用户问 Uptick logo 该用哪个版本、App 线与 Web Marketplace 线的颜色有什么区别、深色背景用哪个、能不能改色或拉伸、该用 svg 还是 png 时，加载本技能并给出标准文件与规则。包含两条产品线各自的横版字标、图形标、竖版三种版式，浅色 / 深色背景两套，SVG/PNG/PDF 格式，以及两线颜色系统不可混用的铁律、留白、最小尺寸、可做·禁止清单。
+agent_created: true
 ---
 
 # Uptick Logo VI

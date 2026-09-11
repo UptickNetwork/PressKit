@@ -4,12 +4,12 @@
 
 本仓库收录 Uptick 生态 **7 个品牌**的 logo 素材，每个品牌都提供
 **SVG**（网页 / 开发）· **PNG**（PPT / 社交 / 聊天）· **PDF**（印刷）三种格式，
-并已按背景深浅拆好文件：浅色背景取 `浅色背景` 版，深色背景取 `深色背景` 版（个别版式为彩色单用，见下方品牌表）。
+并已按背景深浅拆好文件：浅色背景取 `浅色背景` 版，深色背景取 `深色背景` 版（个别版式为一套通用或彩色单用，见下方品牌表）。
 
 Logo assets for **7 brands** across the Uptick ecosystem. Every brand ships **SVG**
 (web / dev), **PNG** (slides / social / chat) and **PDF** (print), mostly split by
 background — take the `浅色背景` file for light backgrounds, `深色背景` for dark ones
-(a few variants are colour-only; see the tables below).
+(a few variants are colour-only or work on any background; see the tables below).
 Folders and file names are in Chinese: `浅色背景` = light background, `深色背景` = dark
 background, `标准交付/` = standard delivery, `变体/` = variants.
 
@@ -102,9 +102,9 @@ DID + VC 证书产品 / DID + VC credentials
 
 | 版式 / Layout | 背景版本 / Background | 格式 / Formats | 所在目录 / Folder |
 | --- | --- | :---: | --- |
-| 横版组合 / Horizontal lockup | 只有一套，用于浅色背景 / Single version, light backgrounds only | SVG · PNG · PDF | `标准交付/` |
-| 图案标 / Logomark | 只有一套，用于浅色背景 / Single version, light backgrounds only | SVG · PNG · PDF | `变体/` |
-| 文字标 / Wordmark | 只有一套，用于浅色背景 / Single version, light backgrounds only | SVG · PNG · PDF | `变体/` |
+| 横版组合 / Horizontal lockup | 一套通用，浅底 · 深底 / Single version, works on light & dark | SVG · PNG · PDF | `标准交付/` |
+| 图案标 / Logomark | 一套通用，浅底 · 深底 / Single version, works on light & dark | SVG · PNG · PDF | `变体/` |
+| 文字标 / Wordmark | 一套通用，浅底 · 深底 / Single version, works on light & dark | SVG · PNG · PDF | `变体/` |
 
 ---
 

@@ -1,6 +1,7 @@
 ---
 name: upticknetwork-logo-vi
-description: UptickNetwork 品牌 logo 使用规范（VI）。当用户需要选用、下载、或确认 UptickNetwork logo 的正确用法时（如"深色背景用哪个 logo""能不能改色/拉伸""图案标（方形标）在哪""竖版在哪""该用 svg 还是 png"），加载本技能并给出标准文件与规则。包含横版字标、图案标（方形标）、竖版三种版式，各含浅色/深色背景两套、SVG/PNG/PDF/AI 格式，以及留白、最小尺寸、可做·禁止清单。
+description: UptickNetwork 品牌 logo 使用规范（VI）。当用户问 UptickNetwork logo 该用哪个、深色背景用哪个、图案标（方形标）在哪、竖版在哪、能不能改色或拉伸、该用 svg 还是 png 时，加载本技能并给出标准文件与规则。包含横版字标、图案标（方形标）、竖版三种版式，各含浅色/深色背景两套，SVG/PNG/PDF 格式，以及留白、最小尺寸、可做·禁止清单。
+agent_created: true
 ---
 
 # UptickNetwork Logo VI 使用规范

@@ -1,21 +1,7 @@
 ---
 name: upward-logo-vi
-description: Upward Wallet 品牌 logo 使用规范：帮非设计同事选对 logo、避免改色/拉伸等误用。
-triggers:
-  - upward logo
-  - Upward logo
-  - Upward 品牌
-  - Upward logo 规范
-  - upward 标志
-  - Upward VI
-  - 深色背景用哪个
-  - 浅色背景用哪个
-  - App 图标
-  - favicon
-  - 能不能改 logo 颜色
-  - logo 能不能拉伸
-  - Upward 印刷
-  - Upward 名片
+description: Upward Wallet 品牌 logo 使用规范（VI）。当用户问 Upward logo 该用哪个、深浅色背景怎么选、App 图标 / favicon 用哪个、印刷 / 名片用什么格式、能不能改色或拉伸时，加载本技能并给出标准文件与规则。包含横版字标、图形标（logomark）、竖版三种版式，横版 / 竖版各含浅色与深色背景两套（图形标通用），SVG/PNG/PDF 格式，以及留白、最小尺寸、可做·禁止清单。
+agent_created: true
 ---
 
 # Upward Logo VI Skill
@@ -25,7 +11,7 @@ triggers:
 ## 同事提问时，按以下顺序回答
 
 1. **先判断场景**：问的是「深色/浅色背景用哪个」「App 图标用哪个」「印刷用哪个」「能不能改色/拉伸」。
-2. **给出文件路径**：指向 `/Users/qia/Desktop/Qia/1区块链NFT/Logo/GitHub logo VI 全套/PressKit/Upward Logo VI/` 下的对应文件。
+2. **给出文件**：指向本文件夹下 `标准交付/` 或 `变体/` 中的对应文件（技能分发包内为 `assets/` 下的同名文件）。
 3. **强调铁律**：logo 是极光多色渐变，非单色，禁止改色/压单色/拉伸/加效果。
 4. **必要时引用完整规范**：`references/logo-guidelines.md`。
 
@@ -55,7 +41,7 @@ triggers:
 
 ## 文件命名约定
 
-在可即用副本 `~/.workbuddy/skills/upward-logo-vi/assets/` 中，文件已归一化：
+本技能分发包（`upward-logo-vi.zip`）内 `assets/` 的归一化文件名：
 - `upward-logo-horizontal-standard.{svg,png,pdf}` — 横版浅底
 - `upward-logo-horizontal-white.{svg,png,pdf}` — 横版深底
 - `upward-logo-vertical-standard.{svg,png,pdf}` — 竖版浅底
